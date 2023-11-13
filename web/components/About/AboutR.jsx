@@ -1,4 +1,4 @@
-import Image from "next/image";
+import LeafletMap from "@/components/Map";
 
 const AboutR = () => {
   return (
@@ -11,7 +11,7 @@ const AboutR = () => {
                 className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
                 data-wow-delay=".15s"
               >
-                <Image alt="Google Maps" fill />
+                <LeafletMap />
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2">

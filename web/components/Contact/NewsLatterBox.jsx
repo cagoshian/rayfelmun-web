@@ -17,7 +17,7 @@ const NewsLatterBox = () => {
         <br />
         Instagram: <a href="https://www.instagram.com/vardibile/">@vardibile</a>
       </p>
-      <div className="absolute top-0 left-0 z-[-1]">
+      {/* <div className="absolute top-0 left-0 z-[-1]">
         <svg
           width="370"
           height="596"
@@ -151,7 +151,7 @@ const NewsLatterBox = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -22,7 +22,7 @@ const PricingBox = (props) => {
           </button>
         </div>
         <div>{children}</div>
-        <div className="absolute bottom-0 right-0 z-[-1]">
+        {/* <div className="absolute bottom-0 right-0 z-[-1]">
           <svg
             width="179"
             height="158"
@@ -65,7 +65,7 @@ const PricingBox = (props) => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );

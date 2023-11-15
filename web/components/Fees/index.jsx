@@ -1,6 +1,5 @@
 "use client";
 import SectionTitle from "../Common/SectionTitle";
-import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
 const Pricing = () => {
@@ -19,42 +18,21 @@ const Pricing = () => {
             packageName="Options 1"
             price="40"
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            {/* <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" /> */}
-          </PricingBox>
+          ></PricingBox>
           <PricingBox
             packageName="Options 2"
             price="80"
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            {/* <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" /> */}
-          </PricingBox>
+          ></PricingBox>
           <PricingBox
             packageName="Options 3"
             price="120"
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            {/* <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" /> */}
-          </PricingBox>
+          ></PricingBox>
         </div>
       </div>
 
-      <div className="absolute left-0 bottom-0 z-[-1]">
+      {/* <div className="absolute left-0 bottom-0 z-[-1]">
         <svg
           width="239"
           height="601"
@@ -107,7 +85,7 @@ const Pricing = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -1,6 +1,6 @@
 import LeafletMap from "@/components/Map";
 
-const AboutR = () => {
+const Location = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -107,4 +107,4 @@ const AboutR = () => {
   );
 };
 
-export default AboutR;
+export default Location;

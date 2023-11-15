@@ -171,7 +171,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="absolute right-0 top-14 z-[-1]">
+        {/* <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
             height="99"
@@ -244,8 +244,8 @@ const Footer = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
-        <div className="absolute left-0 bottom-24 z-[-1]">
+        </div> */}
+        {/* <div className="absolute left-0 bottom-24 z-[-1]">
           <svg
             width="79"
             height="94"
@@ -360,7 +360,7 @@ const Footer = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </footer>
     </>
   );

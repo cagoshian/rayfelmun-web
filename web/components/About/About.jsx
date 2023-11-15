@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 
-const AboutL = () => {
+const About = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -19,4 +19,4 @@ const AboutL = () => {
   );
 };
 
-export default AboutL;
+export default About;

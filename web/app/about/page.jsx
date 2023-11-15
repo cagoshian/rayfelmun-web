@@ -1,12 +1,12 @@
-import AboutL from "@/components/About/AboutL";
-import AboutR from "@/components/About/AboutR";
+import About from "@/components/About/About";
+import Location from "@/components/About/Location";
 import Fees from "@/components/Fees";
 
 const AboutPage = () => {
   return (
     <>
-      <AboutL />
-      <AboutR />
+      <About />
+      <Location />
       <Fees />
     </>
   );

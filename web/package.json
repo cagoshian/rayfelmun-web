@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/font": "^14.0.2",
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/table": "^2.0.28",
     "next": "14.0.2",
     "next-themes": "^0.2.1",
     "ol": "^8.1.0",

@@ -15,7 +15,7 @@ const OLMap = () => {
         }),
       ],
       view: new View({
-        center: [0, 0],
+        center: ('40.97991', '27.547655'),
         zoom: 2,
       }),
     });

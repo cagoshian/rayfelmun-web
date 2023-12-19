@@ -19,12 +19,24 @@ const menuData = [
   },
   {
     id: 4,
+    title: "Logistics",
+    path: "/logistics",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Schedule",
+    path: "/schedule",
+    newTab: false,
+  },
+  {
+    id: 6,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 5,
+    id: 7,
     title: "FAQ",
     path: "/faq",
     newTab: false,

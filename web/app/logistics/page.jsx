@@ -2,12 +2,13 @@ import About from "@/components/About/About";
 import Location from "@/components/About/Location";
 import Fees from "@/components/Fees";
 
-const AboutPage = () => {
+const LogisticsPage = () => {
   return (
-    <>
-      <About />
-    </>
+    <div className="mt-16">
+      <Location />
+      <Fees />
+    </div>
   );
 };
 
-export default AboutPage;
+export default LogisticsPage;

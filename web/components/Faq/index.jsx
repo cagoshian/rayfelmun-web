@@ -8,11 +8,13 @@ const Faq = () => {
         <div className="md:pb-20 lg:pb-28">
           <div className="-mx-4 flex-wrap items-center">
             <Lable title="Test" description="Lorem impus" />
-            <Lable title="Test2" description="Lorem impus asdjkfşjlkasjlşkfjşasdjfjasdklj" />
+            <Lable
+              title="Test2"
+              description="Lorem impus asdjkfşjlkasjlşkfjşasdjfjasdklj"
+            />
           </div>
         </div>
       </div>
-      
     </section>
   );
 };

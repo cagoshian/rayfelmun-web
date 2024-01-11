@@ -11,11 +11,11 @@ const NewsLatterBox = () => {
         You can contact us at the following addresses
       </p>
       <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Phone: +90 5XX XXX XXXX
+        {/* Phone: +90 5XX XXX XXXX */}
+        {/* <br /> */}
+        E-Mail: <a href="mailto:talmodelun@gmail.com">talmodelun@gmail.com</a>
         <br />
-        E-Mail: <a href="mailto:email@example.com">ahmet.e.barut@gmail.com</a>
-        <br />
-        Instagram: <a href="https://www.instagram.com/vardibile/">@vardibile</a>
+        Instagram: <a href="https://www.instagram.com/talmun24/">@talmun24</a>
       </p>
     </div>
   );

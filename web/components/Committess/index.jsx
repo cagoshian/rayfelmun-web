@@ -21,8 +21,8 @@ const Committees = () => {
                     src="/images/unesco.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={250}
+                    height={140}
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">

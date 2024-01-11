@@ -18,10 +18,11 @@ const Location = () => {
               <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
                 <div className="mb-9">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Location
+                    Namik Kemal Universitesi
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Asd DSA Mah. Lorem Cad. No:1 34100, Fatih/İstanbul
+                    Namık Kemal, Kampüs Caddesi Namık Kemal Üniversitesi No:1,
+                    59030 Süleymanpaşa/Tekirdağ
                   </p>
                 </div>
               </div>

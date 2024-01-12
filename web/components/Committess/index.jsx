@@ -49,8 +49,8 @@ const Committees = () => {
                     src="/images/disec.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={250}
+                    height={140}
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -79,8 +79,8 @@ const Committees = () => {
                     src="/images/unhcr.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={250}
+                    height={140}
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -107,8 +107,8 @@ const Committees = () => {
                     src="/images/unwomen.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={250}
+                    height={140}
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">

@@ -1,6 +1,36 @@
+"use client";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Hero = () => {
+  const targetDate = new Date("2024-03-08T00:00:00");
+  const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeRemaining(calculateTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  function calculateTimeRemaining() {
+    const now = new Date();
+    const difference = targetDate - now;
+
+    if (difference < 0) {
+      return { days: 0, hours: 0, minutes: 0 };
+    }
+
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+
+    return { days, hours, minutes };
+  }
+
   return (
     <>
       <section
@@ -14,6 +44,14 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] "
                 data-wow-delay=".2s"
               >
+                <div className="border-b border-body-color/[.15]">
+                  <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                    {timeRemaining.days} Day : {timeRemaining.hours} Hours :{" "}
+                    {timeRemaining.minutes} Minutes
+                  </h1>
+                  <br />
+                </div>
+                <br />
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Distinguished Participants;
                 </h1>
@@ -57,10 +95,16 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/apply"
+                    href="https://forms.gle/nue5VETdAjaFc5J76"
                     className="rounded-md bg-primary py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
                   >
-                    Apply
+                    Apply Delegate
+                  </Link>
+                  <Link
+                    href="https://forms.gle/qyZpcHtGkAuijK8g7"
+                    className="rounded-md bg-primary py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
+                  >
+                    Apply Delegation
                   </Link>
                 </div>
               </div>

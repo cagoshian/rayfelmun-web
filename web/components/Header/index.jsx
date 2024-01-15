@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import menuData from "./menuData";
 
@@ -9,6 +10,8 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
+
+  const usePathName = usePathname();
 
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
@@ -90,52 +93,57 @@ const Header = () => {
                 }`}
               >
                 <ul className="block lg:flex lg:space-x-12">
-                  {menuData.map((menuItem, index) => (
-                    <li key={menuItem.id} className="group relative">
-                      {menuItem.path ? (
-                        <Link
-                          href={menuItem.path}
-                          className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
-                        >
-                          {menuItem.title}
-                        </Link>
-                      ) : (
-                        <>
-                          <a
-                            onMouseOver={() => {}}
-                            onFocus={() => {}}
-                            className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
-                          >
-                            {menuItem.title}
-                            <span className="pl-3">
-                              <svg width="15" height="14" viewBox="0 0 15 14">
-                                <path
-                                  d="M7.81602 9.97495C7.68477 9.97495 7.57539 9.9312 7.46602 9.8437L2.43477 4.89995C2.23789 4.70308 2.23789 4.39683 2.43477 4.19995C2.63164 4.00308 2.93789 4.00308 3.13477 4.19995L7.81602 8.77183L12.4973 4.1562C12.6941 3.95933 13.0004 3.95933 13.1973 4.1562C13.3941 4.35308 13.3941 4.65933 13.1973 4.8562L8.16601 9.79995C8.05664 9.90933 7.94727 9.97495 7.81602 9.97495Z"
-                                  fill="currentColor"
-                                />
-                              </svg>
-                            </span>
-                          </a>
-                          <div
-                            className={`submenu relative top-full left-0 rounded-md bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
-                              openIndex === index ? "block" : "hidden"
+                    {menuData.map((menuItem, index) => (
+                      <li key={index} className="group relative">
+                        {menuItem.path ? (
+                          <Link
+                            href={menuItem.path}
+                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                              usePathName === menuItem.path
+                                ? "text-primary dark:text-white"
+                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                             }`}
                           >
-                            {menuItem.submenu.map((submenuItem) => (
-                              <Link
-                                href={submenuItem.path}
-                                key={submenuItem.id}
-                                className="block rounded py-2.5 text-sm text-dark hover:opacity-70 dark:text-white lg:px-3"
-                              >
-                                {submenuItem.title}
-                              </Link>
-                            ))}
-                          </div>
-                        </>
-                      )}
-                    </li>
-                  ))}
-                </ul>
+                            {menuItem.title}
+                          </Link>
+                        ) : (
+                          <>
+                            <p
+                              onClick={() => handleSubmenu(index)}
+                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                            >
+                              {menuItem.title}
+                              <span className="pl-3">
+                                <svg width="25" height="24" viewBox="0 0 25 24">
+                                  <path
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                    d="M6.29289 8.8427C6.68342 8.45217 7.31658 8.45217 7.70711 8.8427L12 13.1356L16.2929 8.8427C16.6834 8.45217 17.3166 8.45217 17.7071 8.8427C18.0976 9.23322 18.0976 9.86639 17.7071 10.2569L12 15.964L6.29289 10.2569C5.90237 9.86639 5.90237 9.23322 6.29289 8.8427Z"
+                                    fill="currentColor"
+                                  />
+                                </svg>
+                              </span>
+                            </p>
+                            <div
+                              className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
+                                openIndex === index ? "block" : "hidden"
+                              }`}
+                            >
+                              {menuItem.submenu.map((submenuItem, index) => (
+                                <Link
+                                  href={submenuItem.path}
+                                  key={index}
+                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                >
+                                  {submenuItem.title}
+                                </Link>
+                              ))}
+                            </div>
+                          </>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
               </nav>
             </div>
           </div>

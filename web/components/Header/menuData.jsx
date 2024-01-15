@@ -14,8 +14,33 @@ const menuData = [
   {
     id: 3,
     title: "Committees",
-    path: "/committees",
     newTab: false,
+    submenu: [
+      {
+        id: 31,
+        title: "UNESCO",
+        path: "/unesco",
+        newTab: false,
+      },
+      {
+        id: 32,
+        title: "DISEC",
+        path: "/disec",
+        newTab: false,
+      },
+      {
+        id: 33,
+        title: "UNHCR",
+        path: "/unhcr",
+        newTab: false,
+      },
+      {
+        id: 34,
+        title: "UNWOMEN",
+        path: "/unwomen",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 4,
@@ -43,8 +68,8 @@ const menuData = [
   },
   {
     id: 8,
-    title: "Press",
-    path: "/press",
+    title: "Team",
+    path: "/team",
     newTab: false,
   },
 ];

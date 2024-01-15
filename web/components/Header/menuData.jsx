@@ -41,5 +41,11 @@ const menuData = [
     path: "/faq",
     newTab: false,
   },
+  {
+    id: 8,
+    title: "Press",
+    path: "/press",
+    newTab: false,
+  },
 ];
 export default menuData;

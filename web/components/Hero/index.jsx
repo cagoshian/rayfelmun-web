@@ -45,7 +45,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <div className="border-b border-body-color/[.15]">
-                  <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  <h1 className="mb-5 text-3xl font-bold font-times leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                     {timeRemaining.days} Day : {timeRemaining.hours} Hours :{" "}
                     {timeRemaining.minutes} Minutes
                   </h1>
@@ -93,18 +93,18 @@ const Hero = () => {
                   Sümeyra KÖSE <br />
                   Secretary Generals of TALMUN'24
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div id="apply" className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://forms.gle/nue5VETdAjaFc5J76"
                     className="rounded-md bg-primary py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
                   >
-                    Apply Delegate
+                    Apply As A Delegate
                   </Link>
                   <Link
                     href="https://forms.gle/qyZpcHtGkAuijK8g7"
                     className="rounded-md bg-primary py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
                   >
-                    Apply Delegation
+                    Apply As A Delegation
                   </Link>
                 </div>
               </div>

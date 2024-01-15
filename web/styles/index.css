@@ -10,6 +10,15 @@
   }
 }
 
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('/web/public/fonts/TimesRegular.ttf') format('ttf');
+}
+
+.font-times {
+  font-family: 'Times New Roman', serif;
+}
+
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;

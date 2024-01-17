@@ -13,7 +13,7 @@ const UNESCO = () => {
                 </h2>
                 <div>
                   <p className="mb-10 text-base text-center font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Economic empowerment of women
+                    Economic Empowerment of Women
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">

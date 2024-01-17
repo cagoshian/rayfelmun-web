@@ -13,7 +13,7 @@ const UNHCR = () => {
                 </h2>
                 <div>
                   <p className="mb-10 text-base text-center font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Addressing the global refugee crisis
+                    Addressing The Global Refugee Crisis
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">

@@ -42,11 +42,24 @@ const menuData = [
       },
     ],
   },
-  {
+  { 
     id: 4,
-    title: "Logistics",
-    path: "/logistics",
+    title: "Conference Details",
     newTab: false,
+    submenu: [
+      {
+        id: 41,
+        title: "Logistics",
+        path: "/logistics",
+        newTab: false,
+      },
+      {
+        id: 42,
+        title: "Fees",
+        path: "/logistics#fees",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 5,

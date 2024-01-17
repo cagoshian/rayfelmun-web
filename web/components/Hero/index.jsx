@@ -45,7 +45,7 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <div className="border-b border-body-color/[.15]">
-                  <h1 className="mb-5 text-3xl font-bold font-times leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  <h1 className="mb-5 text-4xl font-bold font-times leading-tight text-center text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
                     {timeRemaining.days} Day : {timeRemaining.hours} Hours :{" "}
                     {timeRemaining.minutes} Minutes
                   </h1>

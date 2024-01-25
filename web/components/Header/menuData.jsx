@@ -18,31 +18,37 @@ const menuData = [
     submenu: [
       {
         id: 31,
+        title: "Cabinet of Bill Clinton",
+        path: "/cabinet",
+        newTab: false,
+      },
+      {
+        id: 32,
         title: "UNESCO",
         path: "/unesco",
         newTab: false,
       },
       {
-        id: 32,
+        id: 33,
         title: "DISEC",
         path: "/disec",
         newTab: false,
       },
       {
-        id: 33,
+        id: 34,
         title: "UNHCR",
         path: "/unhcr",
         newTab: false,
       },
       {
-        id: 34,
+        id: 35,
         title: "UNWOMEN",
         path: "/unwomen",
         newTab: false,
       },
     ],
   },
-  { 
+  {
     id: 4,
     title: "Conference Details",
     newTab: false,

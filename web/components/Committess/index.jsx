@@ -10,7 +10,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/1">UNESCO</Link>
+                  <Link href="/committees/unesco">UNESCO</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Cultural heritage and World heritage sites
@@ -38,7 +38,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/2">DISEC</Link>
+                  <Link href="/committees/disec">DISEC</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Prevention and Control of WMD Proliferation
@@ -68,7 +68,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/1">UNHCR</Link>
+                  <Link href="/committees/unhcr">UNHCR</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Addressing the global refugee crisis
@@ -96,7 +96,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/2">UNWOMEN</Link>
+                  <Link href="/committees/unwomen">UNWOMEN</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Economic empowerment of women

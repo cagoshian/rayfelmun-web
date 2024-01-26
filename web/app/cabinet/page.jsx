@@ -12,21 +12,6 @@ const CABINET = () => {
                   Cabinet of Bill Clinton
                 </h2>
                 <div>
-                  <p className="mb-10 text-base text-center font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    From the moment he assumed the presidency in 1993, his
-                    actions have made him one of America's most memorable
-                    presidents up until his last year in the office, 2001.
-                    During Bill Clinton's presidency, the U.S. experienced one
-                    of the most prosperous economic periods in its entire
-                    history. He had one of the lowest unemployment rates in
-                    history, the lowest inflation in decades, the highest number
-                    of homeowners, the lowest crime rate, and the strongest
-                    people economically. "It's the economy, stupid!" was the
-                    slogan he used to attract public attention in his campaigns.
-                    If you're determined to take big steps to make America the
-                    best it can be, just the way Clinton did it himself, this
-                    crisis cabinet is the place for you!
-                  </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image

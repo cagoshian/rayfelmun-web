@@ -24,7 +24,8 @@ const Footer = () => {
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color"></p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.tiktok.com/@talmodelun"
+                    rel="nofollow noopener"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -43,7 +44,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/talmun24/"
+                    rel="nofollow noopener"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >

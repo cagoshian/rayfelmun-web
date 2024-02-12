@@ -59,12 +59,12 @@ const menuData = [
         path: "/logistics",
         newTab: false,
       },
-      {
-        id: 42,
-        title: "Fees",
-        path: "/logistics#fees",
-        newTab: false,
-      },
+      // {
+      //   id: 42,
+      //   title: "Fees",
+      //   path: "/logistics#fees",
+      //   newTab: false,
+      // },
     ],
   },
   {

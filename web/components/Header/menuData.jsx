@@ -18,8 +18,8 @@ const menuData = [
     submenu: [
       {
         id: 31,
-        title: "Cabinet of Bill Clinton",
-        path: "/cabinet",
+        title: "Chernobyl Disaster",
+        path: "/Chernobyl",
         newTab: false,
       },
       {

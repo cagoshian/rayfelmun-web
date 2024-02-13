@@ -17,8 +17,8 @@ const About = () => {
                 <br />
                 Sincerely,
                 <br />
-                <br />
-                Masal Naz Çalışkan
+                {/* <br />
+                Masal Naz Çalışkan */}
                 <br />
                 Under Secretary General of TALMUN'24
               </p></SectionTitle>

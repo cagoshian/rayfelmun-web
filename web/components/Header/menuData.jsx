@@ -19,7 +19,7 @@ const menuData = [
       {
         id: 31,
         title: "Chernobyl Disaster",
-        path: "/Chernobyl",
+        path: "/chernobyl",
         newTab: false,
       },
       {

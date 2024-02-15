@@ -13,8 +13,8 @@ const NewsLatterBox = () => {
       <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
         Director-General: +90 542 609 3486 
         <br />
-        Advisor: +90 546 439 9881
-        <br />
+        {/* Advisor: +90 546 439 9881
+        <br /> */}
         <br />
         E-Mail: <a href="mailto:talmodelun@gmail.com">talmodelun@gmail.com</a>
         <br />

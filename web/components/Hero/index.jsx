@@ -57,33 +57,15 @@ const Hero = () => {
                 </h1>
                 <br />
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  It is with great enthusiasm and a sense of pride that we
-                  extend our warmest welcome to each one of you to the inaugural
-                  Tekirdağ Anatolian Hıghschool’s Model United Nations
-                  Conference. As the Secretary-Generals, we are honored to
-                  witness the beginning of a new tradition, where the seeds of
-                  diplomacy, collaboration, and global understanding will be
-                  sown. <br />
+                  It is with great enthusiasm and a sense of pride that we extend our warmest welcome to each one of you to the inaugural TALMUN'24 Conference. As the Secretary-Generals, we are honored to witness the beginning of a new tradition, where the seeds of diplomacy, collaboration, and global understanding will be sown. <br />
                   <br />
-                  Throughout the conference, we invite you to immerse yourselves
-                  in the experience, learn from one another, and celebrate the
-                  diversity of perspectives that make Model United Nations such
-                  a powerful educational tool. Our experienced chairs and staff
-                  are here to guide you, ensuring a constructive and enriching
-                  environment for all.
+                  Throughout the conference, we invite you to immerse yourselves in the experience, learn from one another, and celebrate the diversity of perspectives that make Model United Nations such a powerful educational tool. Our experienced chairs and staff are here to guide you, ensuring a constructive and enriching environment for all.
                   <br />
                   <br />
-                  As we embark on this exciting journey together, let us make
-                  the first Tekirdağ Anatolian Hıghschool’s Model United Nations
-                  Conference a resounding success. May it be a foundation for
-                  future conferences, fostering a tradition of diplomacy,
-                  dialogue, and positive change.
+                  As we embark on this exciting journey together, let us make our first conference a resounding success. May it be a foundation for future conferences, fostering a tradition of diplomacy, dialogue, and positive change.
                   <br />
                   <br />
-                  Thank you for being a part of this historic event. We are
-                  looking forward to witnessing the incredible contributions and
-                  achievements that will undoubtedly emerge from our collective
-                  efforts.
+                  Thank you for being a part of this historic event. We are looking forward to witnessing the incredible contributions and achievements that will undoubtedly emerge from our collective efforts.
                   <br />
                   <br />
                   Sincerely,

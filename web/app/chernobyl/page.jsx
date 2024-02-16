@@ -15,7 +15,7 @@ const CABINET = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/chernobyl.jpeg"
+                        src="/images/chernobyl.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"

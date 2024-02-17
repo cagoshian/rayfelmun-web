@@ -12,13 +12,13 @@ const About = () => {
               center
               mb="44px"
             ><p className="text-base text-center items-center !leading-relaxed text-body-color md:text-lg">
-                <br />
+                {/* <br />
                 Sincerely,
-                <br />
+                <br /> */}
                 {/* <br />
                 Masal Naz Çalışkan */}
-                <br />
-                Under Secretary General of TALMUN'24
+                {/* <br />
+                Under Secretary General of TALMUN'24 */}
               </p></SectionTitle>
 
           </div>

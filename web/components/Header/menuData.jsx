@@ -18,8 +18,8 @@ const menuData = [
     submenu: [
       {
         id: 31,
-        title: "Chernobyl Disaster",
-        path: "/chernobyl",
+        title: "HCC",
+        path: "/hcc",
         newTab: false,
       },
       {

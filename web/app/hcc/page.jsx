@@ -26,9 +26,34 @@ const CABINET = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    In the intriguing Historical Crisis Cabinet, participants are poised to delve into the complexities of the Chernobyl Disaster. Over the span of three days, delegates will not only grapple with the challenge of averting potential dangers at the Chernobyl Nuclear Power Plant but also tackle a myriad of issues sent from the crisis room. It's an immersive experience that invites individuals to actively engage in problem-solving, making it a unique opportunity for those with a keen interest in history, crisis management, and decision-making. If you're passionate about exploring the intricacies of historical events and contributing to solutions, don't miss the chance to apply and become an integral part of this captivating cabinet experience!
+                    In the intriguing Historical Crisis Cabinet, participants
+                    are poised to delve into the complexities of the Chernobyl
+                    Disaster. Over the span of three days, delegates will not
+                    only grapple with the challenge of averting potential
+                    dangers at the Chernobyl Nuclear Power Plant but also tackle
+                    a myriad of issues sent from the crisis room. It's an
+                    immersive experience that invites individuals to actively
+                    engage in problem-solving, making it a unique opportunity
+                    for those with a keen interest in history, crisis
+                    management, and decision-making. If you're passionate about
+                    exploring the intricacies of historical events and
+                    contributing to solutions, don't miss the chance to apply
+                    and become an integral part of this captivating cabinet
+                    experience!
                   </p>
                 </div>
+              </div>
+              <div
+                id="apply"
+                className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+              >
+                <a
+                  href="/pdf/TALMUN24_Historical_Crisis_Cabinet_Chernobyl_Disaster_Study_Guide.pdf"
+                  download="TALMUN24_Historical_Crisis_Cabinet_Chernobyl_Disaster_Study_Guide.pdf"
+                  className="rounded-md bg-primary  py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
+                >
+                  Study Guide
+                </a>
               </div>
             </div>
           </div>

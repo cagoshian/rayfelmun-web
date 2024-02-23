@@ -34,6 +34,18 @@ const DISEC = () => {
                   </p>
                 </div>
               </div>
+              <div
+                id="apply"
+                className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+              >
+                <a
+                  href="/pdf/TALMUN_DISEC_STUDY_GUIDE.pdf"
+                  download="TALMUN_DISEC_STUDY_GUIDE.pdf"
+                  className="rounded-md bg-primary  py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
+                >
+                  Study Guide
+                </a>
+              </div>
             </div>
           </div>
         </div>

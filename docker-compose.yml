@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: talmun-web
+    volumes:
+      - /opt/talmun/web:/app

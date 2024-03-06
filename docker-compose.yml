@@ -5,5 +5,8 @@ services:
       context: ./web
       dockerfile: Dockerfile
     container_name: talmun-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
     volumes:
       - /opt/talmun/web:/app

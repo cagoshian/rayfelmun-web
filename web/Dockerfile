@@ -1,6 +1,5 @@
 FROM node:20.11-alpine
 
-USER nonroot
 WORKDIR /src
 
 COPY . .

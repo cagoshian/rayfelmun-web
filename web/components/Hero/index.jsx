@@ -3,34 +3,6 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const Hero = () => {
-  const targetDate = new Date("2024-03-08T00:00:00");
-  const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeRemaining(calculateTimeRemaining());
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  function calculateTimeRemaining() {
-    const now = new Date();
-    const difference = targetDate - now;
-
-    if (difference < 0) {
-      return { days: 0, hours: 0, minutes: 0 };
-    }
-
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor(
-      (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-
-    return { days, hours, minutes };
-  }
-
   return (
     <>
       <section
@@ -44,22 +16,37 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] "
                 data-wow-delay=".2s"
               >
-                
                 <br />
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Distinguished Participants;
                 </h1>
                 <br />
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  It is with great enthusiasm and a sense of pride that we extend our warmest welcome to each one of you to the inaugural TALMUN'24 Conference. As the Secretary-Generals, we are honored to witness the beginning of a new tradition, where the seeds of diplomacy, collaboration, and global understanding will be sown. <br />
+                  It is with great enthusiasm and a sense of pride that we
+                  extend our warmest welcome to each one of you to the inaugural
+                  TALMUN'24 Conference. As the Secretary-Generals, we are
+                  honored to witness the beginning of a new tradition, where the
+                  seeds of diplomacy, collaboration, and global understanding
+                  will be sown. <br />
                   <br />
-                  Throughout the conference, we invite you to immerse yourselves in the experience, learn from one another, and celebrate the diversity of perspectives that make Model United Nations such a powerful educational tool. Our experienced chairs and staff are here to guide you, ensuring a constructive and enriching environment for all.
+                  Throughout the conference, we invite you to immerse yourselves
+                  in the experience, learn from one another, and celebrate the
+                  diversity of perspectives that make Model United Nations such
+                  a powerful educational tool. Our experienced chairs and staff
+                  are here to guide you, ensuring a constructive and enriching
+                  environment for all.
                   <br />
                   <br />
-                  As we embark on this exciting journey together, let us make our first conference a resounding success. May it be a foundation for future conferences, fostering a tradition of diplomacy, dialogue, and positive change.
+                  As we embark on this exciting journey together, let us make
+                  our first conference a resounding success. May it be a
+                  foundation for future conferences, fostering a tradition of
+                  diplomacy, dialogue, and positive change.
                   <br />
                   <br />
-                  Thank you for being a part of this historic event. We are looking forward to witnessing the incredible contributions and achievements that will undoubtedly emerge from our collective efforts.
+                  Thank you for being a part of this historic event. We are
+                  looking forward to witnessing the incredible contributions and
+                  achievements that will undoubtedly emerge from our collective
+                  efforts.
                   <br />
                   <br />
                   Sincerely,

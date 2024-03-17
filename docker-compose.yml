@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: talmun-web
+    restart: unless-stopped
+    ports:
+      - ${PORT}:3000
+    volumes:
+      - /opt/talmun/web:/app

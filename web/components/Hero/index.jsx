@@ -44,13 +44,7 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] "
                 data-wow-delay=".2s"
               >
-                <div className="border-b border-body-color/[.15]">
-                  <h1 className="mb-5 text-5xl font-bold leading-tight text-center text-black dark:text-white sm:text-6xl sm:leading-tight md:text-7xl md:leading-tight">
-                    {timeRemaining.days} Day : {timeRemaining.hours} Hours :{" "}
-                    {timeRemaining.minutes} Minutes
-                  </h1>
-                  <br />
-                </div>
+                
                 <br />
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Distinguished Participants;

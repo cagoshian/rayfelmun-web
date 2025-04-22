@@ -24,27 +24,7 @@ const Footer = () => {
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color"></p>
                 <div className="flex items-center">
                   <a
-                    href="https://www.tiktok.com/@talmodelun"
-                    rel="nofollow noopener"
-                    aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
-                  >
-                    <svg
-                      width="20"
-                      height="20"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      image-rendering="optimizeQuality"
-                      shape-rendering="geometricPrecision"
-                      text-rendering="geometricPrecision"
-                      viewBox="0 0 512 512"
-                      id="tiktok"
-                    >
-                      <path d="M353.97 0.43c0.03,7.81 2.31,120.68 120.76,127.72 0,32.55 0.04,56.15 0.04,87.21 -8.97,0.52 -77.98,-4.49 -120.93,-42.8l-0.13 169.78c1.63,117.84 -85.09,189.55 -198.44,164.78 -195.46,-58.47 -130.51,-348.37 65.75,-317.34 0,93.59 0.05,-0.03 0.05,93.59 -81.08,-11.93 -108.2,55.52 -86.65,103.81 19.6,43.97 100.33,53.5 128.49,-8.53 3.19,-12.14 4.78,-25.98 4.78,-41.52l0 -337.13 86.28 0.43z"></path>
-                    </svg>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/talmun24/"
+                    href="https://www.instagram.com/rayfelmun/"
                     rel="nofollow noopener"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
@@ -63,9 +43,9 @@ const Footer = () => {
                         y2="1.464"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0" stop-color="#FFC107"></stop>
-                        <stop offset=".507" stop-color="#F44336"></stop>
-                        <stop offset=".99" stop-color="#9C27B0"></stop>
+                        <stop offset="0" stopColor="#FFC107"></stop>
+                        <stop offset=".507" stopColor="#F44336"></stop>
+                        <stop offset=".99" stopColor="#9C27B0"></stop>
                       </linearGradient>
                       <path
                         fill="url(#a)"
@@ -79,9 +59,9 @@ const Footer = () => {
                         y2="5.172"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0" stop-color="#FFC107"></stop>
-                        <stop offset=".507" stop-color="#F44336"></stop>
-                        <stop offset=".99" stop-color="#9C27B0"></stop>
+                        <stop offset="0" stopColor="#FFC107"></stop>
+                        <stop offset=".507" stopColor="#F44336"></stop>
+                        <stop offset=".99" stopColor="#9C27B0"></stop>
                       </linearGradient>
                       <path
                         fill="url(#b)"
@@ -95,9 +75,9 @@ const Footer = () => {
                         y2="3.323"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0" stop-color="#FFC107"></stop>
-                        <stop offset=".507" stop-color="#F44336"></stop>
-                        <stop offset=".99" stop-color="#9C27B0"></stop>
+                        <stop offset="0" stopColor="#FFC107"></stop>
+                        <stop offset=".507" stopColor="#F44336"></stop>
+                        <stop offset=".99" stopColor="#9C27B0"></stop>
                       </linearGradient>
                       <circle
                         cx="12.3"
@@ -181,12 +161,12 @@ const Footer = () => {
         <div className="bg-primary/10 py-3">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Developed By{" "}
+              We are{" "}
               <a
-                href="https://github.com/cagoshian"
+                href="https://github.com/cagoshian/rayfelmun-web"
                 rel="nofollow noopener"
               >
-                doctormaster
+                open source!
               </a>
             </p>
           </div>

@@ -11,14 +11,13 @@ const NewsLatterBox = () => {
         You can contact us at the following addresses
       </p>
       <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Director-General: +90 542 609 3486 
+        Director-General: +90 535 567 1139
         <br />
-        {/* Advisor: +90 546 439 9881
-        <br /> */}
+        {}
         <br />
         E-Mail: <a href="altunbetulece8@gmail.com">altunbetulece8@gmail.com</a>
         <br />
-        Instagram: <a href="https://www.instagram.com/rayfelmun25/">@rayfelmun25</a>
+        Instagram: <a href="https://www.instagram.com/rayfelmun/">@rayfelmun</a>
         </p>
     </div>
   );

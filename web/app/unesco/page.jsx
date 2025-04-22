@@ -40,8 +40,8 @@ const UNESCO = () => {
                 className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
               >
                 <a
-                  href="/pdf/TALMUN_UNESCO_STUDY_GUIDE.pdf"
-                  download="TALMUN_UNESCO_STUDY_GUIDE.pdf"
+                  href="/pdf/UNESCO Study Guide RYFLMUN.pdf"
+                  download="UNESCO Study Guide RYFLMUN.pdf"
                   className="rounded-md bg-primary  py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
                 >
                   Study Guide

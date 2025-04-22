@@ -16,10 +16,10 @@ const NewsLatterBox = () => {
         {/* Advisor: +90 546 439 9881
         <br /> */}
         <br />
-        E-Mail: <a href="mailto:talmodelun@gmail.com">talmodelun@gmail.com</a>
+        E-Mail: <a href="altunbetulece8@gmail.com">altunbetulece8@gmail.com</a>
         <br />
-        Instagram: <a href="https://www.instagram.com/talmun24/">@talmun24</a>
-      </p>
+        Instagram: <a href="https://www.instagram.com/rayfelmun25/">@rayfelmun25</a>
+        </p>
     </div>
   );
 };

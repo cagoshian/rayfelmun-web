@@ -21,8 +21,7 @@ const Location = () => {
                     Namik Kemal Universitesi
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Namık Kemal, Kampüs Caddesi Namık Kemal Üniversitesi No:1,
-                    59030 Süleymanpaşa/Tekirdağ
+                    Sevgi Mahallesi Selami Şaşmaz Caddesi No17 Lüleburgaz
                   </p>
                 </div>
               </div>

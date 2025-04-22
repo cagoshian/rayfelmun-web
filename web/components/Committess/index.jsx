@@ -38,15 +38,15 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/disec">DISEC</Link>
+                  <Link href="/committees/disec">LEGAL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Prevention and Control of WMD Proliferation
+                  Legalization of Abortion
                 </p>
                 <br />
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/disec.jpg"
+                    src="/images/legal.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
                     width={250}
@@ -54,11 +54,9 @@ const Committees = () => {
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  The DISEC meeting is happening to deal with the global WMD
-                  problem. We'll figure out ways to stop these dangerous weapons
-                  from spreading and being misused, making the world safer. As
-                  security stewards, we'll discuss about creative solutions for
-                  disarmament and lasting peace across borders.
+                Over the course of these three days, delegates will not only focus on legal matters within their committee but will also discuss morality and societal values. Introducing the agenda: The Legalization of Abortion.
+
+                During the conference, delegates will debate whether abortion should be legalized and, if so, under what conditions it should be permitted. They will explore how national politics might be affected by this decision, what alternative solutions could address the impacts of abortion on people's lives, and other related issues.
                 </p>
               </div>
             </div>
@@ -68,15 +66,15 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/unhcr">UNHCR</Link>
+                  <Link href="/committees/interpol">INTERPOL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Addressing the global refugee crisis
+                  Combating Transnational Cybercrime and Strengthening Cybersecurity Measures
                 </p>
                 <br />
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/unhcr.jpg"
+                    src="/images/interpol.jpg"
                     alt="unesco"
                     className="hidden w-full dark:block"
                     width={250}
@@ -84,40 +82,7 @@ const Committees = () => {
                   />
                 </Link>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  During the meeting of UNHCR; delegates will be addressing one
-                  of the most important agendas: Refugee Crisis. They will be
-                  covering the rights of refugees and also immigrants who are in
-                  need. Delegates will be trying to embrace the awareness to
-                  refugees for the aim of the meeting.
-                </p>
-              </div>
-            </div>
-            <br />
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/unwomen">UNWOMEN</Link>
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Economic empowerment of women
-                </p>
-                <br />
-                <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/unwomen.jpg"
-                    alt="unesco"
-                    className="hidden w-full dark:block"
-                    width={250}
-                    height={140}
-                  />
-                </Link>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  As the aim of the committee of UNWOMEN, the esteemed delegates
-                  will be bringing the economic empowerment of women’s to the
-                  table. They will discuss about women’s place in the men
-                  dominated business and their financial rights. As a result of
-                  this committee we will be expecting to find a solution to help
-                  women advancing in their business career.
+                  Over the course of these three days, the INTERPOL committee aims to bring delegates together to discuss combating transnational cybercrime and strengthening cybersecurity measures. Delegates will work on identifying remedies for the increasingly prevalent issue of cybercrime.
                 </p>
               </div>
             </div>

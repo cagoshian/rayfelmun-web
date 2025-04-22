@@ -183,7 +183,7 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               Developed By{" "}
               <a
-                href="https://github.com/doctormaster1"
+                href="https://github.com/cagoshian"
                 rel="nofollow noopener"
               >
                 doctormaster

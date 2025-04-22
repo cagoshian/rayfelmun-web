@@ -23,7 +23,7 @@ const Hero = () => {
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   It is with great enthusiasm and a sense of pride that we
                   extend our warmest welcome to each one of you to the inaugural
-                  TALMUN'24 Conference. As the Secretary-Generals, we are
+                  RAYFELMUN'25 Conference. As the Secretary-Generals, we are
                   honored to witness the beginning of a new tradition, where the
                   seeds of diplomacy, collaboration, and global understanding
                   will be sown. <br />
@@ -51,9 +51,8 @@ const Hero = () => {
                   Sincerely,
                 </p>
                 <p className="mb-12 text-base font-normal !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Necdet Kerem MERAL <br />
-                  Sümeyra KÖSE <br />
-                  Secretary Generals of TALMUN'24
+                  Ekin Sezer <br />
+                  Secretary General of RAYFELMUN'25
                 </p>
                 <div
                   id="apply"

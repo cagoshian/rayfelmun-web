@@ -8,13 +8,14 @@ const TeamMember = ({ member }) => {
       <br />
       <br />
       <div
-        id={member.id}
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
-        data-wow-delay=".1s"
-      >
+      id={member.id}
+      className="relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+      style={{ aspectRatio: '3/4' }}
+    >
         <Link
           href={"/team#" + member.id}
-          className="relative block h-[434.667px] w-full"
+          fill
+          className="object-cover object-center"
         >
           <Image src={image} alt="image" fill />
         </Link>

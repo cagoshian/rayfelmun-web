@@ -7,7 +7,7 @@ const Card = () => {
           data-wow-delay=".2s"
         >
           <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-          To Be Announced
+          To be announced...
           </h3>
           {/* <p className="mb-11 text-base font-medium leading-relaxed text-body-color">
             Bahçeli/Ankara

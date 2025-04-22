@@ -18,32 +18,20 @@ const menuData = [
     submenu: [
       {
         id: 31,
-        title: "HCC",
-        path: "/hcc",
-        newTab: false,
-      },
-      {
-        id: 32,
         title: "UNESCO",
         path: "/unesco",
         newTab: false,
       },
       {
+        id: 32,
+        title: "INTERPOL",
+        path: "/interpol",
+        newTab: false,
+      },
+      {
         id: 33,
-        title: "DISEC",
-        path: "/disec",
-        newTab: false,
-      },
-      {
-        id: 34,
-        title: "UNHCR",
-        path: "/unhcr",
-        newTab: false,
-      },
-      {
-        id: 35,
-        title: "UNWOMEN",
-        path: "/unwomen",
+        title: "LEGAL",
+        path: "/legal",
         newTab: false,
       },
     ],
@@ -56,7 +44,7 @@ const menuData = [
   },
   {
     id: 5,
-    title: "Schedule",
+    title: "Card",
     path: "/schedule",
     newTab: false,
   },

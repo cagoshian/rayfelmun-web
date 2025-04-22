@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,44 +16,40 @@ const Hero = () => {
               >
                 <br />
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Distinguished Participants;
+                  Esteemed Delegates,
                 </h1>
                 <br />
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  It is with great enthusiasm and a sense of pride that we
-                  extend our warmest welcome to each one of you to the inaugural
-                  RAYFELMUN'25 Conference. As the Secretary-Generals, we are
-                  honored to witness the beginning of a new tradition, where the
-                  seeds of diplomacy, collaboration, and global understanding
-                  will be sown. <br />
+                  We are grateful to have you here, at RAYFELMUN'25 which will be held on May 10th and 11th. <br />
                   <br />
-                  Throughout the conference, we invite you to immerse yourselves
-                  in the experience, learn from one another, and celebrate the
-                  diversity of perspectives that make Model United Nations such
-                  a powerful educational tool. Our experienced chairs and staff
-                  are here to guide you, ensuring a constructive and enriching
-                  environment for all.
+                  RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL,
+                  for Lüleburgaz. We are becoming a guide for other schools in our city and
+                  we are honored by it.
                   <br />
                   <br />
-                  As we embark on this exciting journey together, let us make
-                  our first conference a resounding success. May it be a
-                  foundation for future conferences, fostering a tradition of
-                  diplomacy, dialogue, and positive change.
+                  For these two days our precious delegates will address the issues in committees
+                  they have chosen. Their brilliant minds will lead the way to the future. RAYFELMUN
+                  is not just a conference, it is a future-changing event. Young minds will change the
+                  world in this prestigious conference.
                   <br />
                   <br />
-                  Thank you for being a part of this historic event. We are
-                  looking forward to witnessing the incredible contributions and
-                  achievements that will undoubtedly emerge from our collective
-                  efforts.
+                  Our diligent and caring team is ready to welcome you over the next two days. Our
+                  team has been working non-stop. They have done amazing work for this conference
+                  and they are going to prove it. I, as the Secretary General of this conference,
+                  truly believe in my incredible team.
                   <br />
                   <br />
-                  Sincerely,
+                  We are eager to see you in our classrooms while debating, expressing your ideas
+                  and standing up for youth, future and humanity. We wish you a wonderful conference experience.
+                  <br />
+                  <br />
+                  Kind regards,
                 </p>
                 <p className="mb-12 text-base font-normal !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   Ekin Sezer <br />
                   Secretary General of RAYFELMUN'25
                 </p>
-                <div
+                {/* <div
                   id="apply"
                   className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
                 >
@@ -70,7 +65,7 @@ const Hero = () => {
                   >
                     Apply As A Delegation
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

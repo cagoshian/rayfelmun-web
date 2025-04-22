@@ -10,7 +10,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/unesco">UNESCO</Link>
+                  <Link href="/unesco">UNESCO</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Cultural heritage and World heritage sites
@@ -38,7 +38,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/disec">LEGAL</Link>
+                  <Link href="/disec">LEGAL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Legalization of Abortion
@@ -66,7 +66,7 @@ const Committees = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  <Link href="/committees/interpol">INTERPOL</Link>
+                  <Link href="/interpol">INTERPOL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Combating Transnational Cybercrime and Strengthening Cybersecurity Measures

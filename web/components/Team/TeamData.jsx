@@ -34,22 +34,6 @@ const teamData = [
   {
     id: 9,
     image: "/images/team/member09.jpeg",
-  }, 
-  {
-    id: 10,
-    image: "/images/team/member10.jpeg",
-  },
-  {
-    id: 11,
-    image: "/images/team/member11.jpeg",
-  },
-  {
-    id: 12,
-    image: "/images/team/member12.jpeg",
-  },
-  {
-    id: 13,
-    image: "/images/team/member13.jpeg",
-  },
+  }
 ];
 export default teamData;

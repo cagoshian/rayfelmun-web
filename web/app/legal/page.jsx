@@ -37,7 +37,7 @@ const UNHCR = () => {
                 <a
                   href="/pdf/RayfelMun LEGAL Study Guide__.pdf"
                   download="RayfelMun LEGAL Study Guide__.pdf"
-                  className="rounded-md bg-primary  py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/800"
+                  className="rounded-2xl shadow-md bg-dark  py-4 px-10 text-base font-semibold text-white duration-300 ease-in-out hover:translate-y-[-2px] hover:shadow-lg"
                 >
                   Study Guide
                 </a>

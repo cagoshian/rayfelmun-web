@@ -1,7 +1,7 @@
 const NewsLatterBox = () => {
   return (
     <div
-      className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
+      className="wow fadeInUp relative z-10 rounded-2xl bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
       data-wow-delay=".2s"
     >
       <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
@@ -15,7 +15,7 @@ const NewsLatterBox = () => {
         <br />
         {}
         <br />
-        E-Mail: <a href="altunbetulece8@gmail.com">altunbetulece8@gmail.com</a>
+        E-Mail: <a href="mailto:altunbetulece8@gmail.com">altunbetulece8@gmail.com</a>
         <br />
         Instagram: <a href="https://www.instagram.com/rayfelmun/">@rayfelmun</a>
         </p>

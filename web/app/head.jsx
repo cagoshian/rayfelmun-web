@@ -1,9 +1,9 @@
 export default function Head() {
   return (
     <>
-      <title>Talmun</title>
+      <title>Rayfelmun'25</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Talmun" />
+      <meta name="description" content="Rayfelmun'25" />
       <link rel="icon" href="/favicon.ico" />
     </>
   );

@@ -11,7 +11,7 @@ const NewsLatterBox = () => {
         You can contact us at the following addresses
       </p>
       <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Director-General: +90 535 567 1139
+        Secretary-General: +90 535 567 1139
         <br />
         {}
         <br />

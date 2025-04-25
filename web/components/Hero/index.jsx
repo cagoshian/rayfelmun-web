@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+import styles from './zortingen.css';
 
 const Hero = () => {
   return (
@@ -6,7 +8,16 @@ const Hero = () => {
       <section
         id="home"
         className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
-      >
+        >
+        <div className="flex justify-center mb-8">
+          <Image
+            src="/images/UN.png"
+            alt="United Nations"
+            width={800}
+            height={400}
+            className="rounded-x1"
+          />
+        </div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">

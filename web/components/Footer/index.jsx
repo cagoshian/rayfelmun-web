@@ -29,7 +29,18 @@ const Footer = () => {
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
-                    <svg
+                    <svg<div className="bg-primary/10 py-3">
+          <div className="container">
+            <p className="text-center text-base text-body-color dark:text-white">
+              We are{" "}
+              <a
+                href="https://github.com/cagoshian/rayfelmun-web"
+                rel="nofollow noopener"
+              >
+                open source!
+              </a>
+            </p>
+          </div>
                       width="20"
                       height="20"
                       viewBox="0 0 16 16"
@@ -171,6 +182,15 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        
+              <div className="hidden lg:block pl-4">
+                <Image
+                  src="/images/UN_logo.png"
+                  alt="UN Logo"
+                  width={50}
+                  height={50}
+                />
+              </div>
       </footer>
     </>
   );

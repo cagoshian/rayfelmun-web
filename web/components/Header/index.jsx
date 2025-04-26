@@ -149,15 +149,6 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-
-              <div className="hidden lg:block pl-4">
-                <Image
-                  src="/images/UN_logo.png"
-                  alt="UN Logo"
-                  width={50}
-                  height={50}
-                />
-              </div>
             </div>
           </div>
         </div>

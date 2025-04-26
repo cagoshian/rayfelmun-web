@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import styles from './zortingen.css';
+import styles from './imageWrapper.css';
 
 const Hero = () => {
   return (

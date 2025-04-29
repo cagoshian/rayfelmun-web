@@ -4,6 +4,24 @@ import styles from './imageWrapper.css';
 
 
 const letters = [
+    {
+  title: "Esteemed Delegates,",
+  content: `
+  We are grateful to have you here, at RAYFELMUN'25 which will be held on May 10th and 11th.
+
+  RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL, for Lüleburgaz. We are becoming a guide for other schools in our city and we are honored by it.
+
+  For these two days our precious delegates will address the issues in committees they have chosen. Their brilliant minds will lead the way to the future. RAYFELMUN is not just a conference, it is a future-changing event. Young minds will change the world in this prestigious conference.
+
+  Our diligent and caring team is ready to welcome you over the next two days. Our team has been working non-stop. They have done amazing work for this conference and they are going to prove it. I, as the Secretary General of this conference, truly believe in my incredible team.
+
+  We are eager to see you in our classrooms while debating, expressing your ideas and standing up for youth, future and humanity. We wish you a wonderful conference experience.
+
+  Kind regards,
+  `,
+  author: "Ekin Sezer",
+  role: "Secretary General of RAYFELMUN'25",
+    },
   {
     title: "Dear Esteemed Delegates, Chairs, and Participants,",
     content: `
@@ -36,24 +54,6 @@ const letters = [
   author: "Betül Ece Altun",
   role: "Deputy General of RAYFELMUN'25",
 },
-{
-  title: "Esteemed Delegates",
-  content: `
-  We are grateful to have you here, at RAYFELMUN'25 which will be held on May 10th and 11th.
-
-  RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL, for Lüleburgaz. We are becoming a guide for other schools in our city and we are honored by it.
-
-  For these two days our precious delegates will address the issues in committees they have chosen. Their brilliant minds will lead the way to the future. RAYFELMUN is not just a conference, it is a future-changing event. Young minds will change the world in this prestigious conference.
-
-  Our diligent and caring team is ready to welcome you over the next two days. Our team has been working non-stop. They have done amazing work for this conference and they are going to prove it. I, as the Secretary General of this conference, truly believe in my incredible team.
-
-  We are eager to see you in our classrooms while debating, expressing your ideas and standing up for youth, future and humanity. We wish you a wonderful conference experience.
-
-  Kind regards
-  `,
-  author: "Ekin Sezer",
-  role: "Secretary-General of RAYFELMUN'25",
-},
 ];
 
 
@@ -70,16 +70,16 @@ const Hero = () => {
             alt="United Nations"
             width={800}
             height={400}
-            className="rounded-x1"
+            className="rounded-2xl"
           />
         </div>
 
         <div className="overflow-x-auto">
-          <div className="flex space-x-6 w-full max-w-screen-xl mx-auto">
+          <div className="flex justify-center gap-6 w-full max-w-screen-3xl mx-auto">
           {letters.map((letter, index) => (
             <div
               key={index}
-              className="w-full max-w-[600px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg flex-shrink-0"
+              className="w-full max-w-[600px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg"
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">{letter.title}</h2>
               <p className="text-base md:text-lg leading-relaxed mb-6 whitespace-pre-line">

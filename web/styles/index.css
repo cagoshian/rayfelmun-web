@@ -29,6 +29,14 @@
   body {
     font-family: "Inter", sans-serif;
   }
+
+  html {
+    forced-color-adjust: none;
+  }
+
+  :root {
+    color-scheme: only dark;
+  }
 }
 
 /* @font-face {

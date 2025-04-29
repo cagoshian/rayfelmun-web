@@ -12,10 +12,6 @@ const Faq = () => {
               description="Rayfelmun’25 will follow the Harvard procedure."
             />
             <Lable
-              title="What are the bank account details for the payment?"
-              description="All participants will be sent an e-mail informing about the details of the bank accounts for the payment as soon as your application is approved."
-            />
-            <Lable
               title="When is the last date for payments?"
               description="It will be announced soon."
             />
@@ -24,16 +20,12 @@ const Faq = () => {
               description="Yes, you will be sent an e-mail informing the venue, the time, and the theme of the event as soon as your application is approved."
             />
             <Lable
-              title="Will there be accommodation options in RAYFELMUN’25?"
-              description="Accomodation details will be announced soon."
-            />
-            <Lable
               title="Where will the RAYFELMUN’25 be held?"
               description="RAYFELMUN’25 will be held in Ramazan Yaman Science High School."
             />
             <Lable
               title="How long will the conference last?"
-              description="The conference will last for 2 days, between 10-11 March 2025."
+              description="The conference will last for 2 days, between 10-11 May 2025."
             />
             <Lable
               title="Is accommodation included in the fee?"
@@ -41,11 +33,7 @@ const Faq = () => {
             />
             <Lable
               title="What is the dress code policy at RAYFELMUN’25?"
-              description="Only elegant attire will be required. All participants must follow the dress code policy of the conference which encompasses formal clothing only. The participants with sneakers or casual outfits will not be allowed to attend the conference."
-            />
-            <Lable
-              title="Is There a Vegan Option For Applicants?"
-              description="Yes, the participants demanding the vegan or vegetarian diet will be offered to have alternative options to have for lunch."
+              description="RAYFELMUN'25 will follow the Western Business Attire. All participants must follow the dress code policy of the conference which encompasses formal clothing only. The participants with sneakers or casual outfits will not be allowed to attend the conference."
             />
           </div>
         </div>

@@ -26,7 +26,7 @@ const UNHCR = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    As the LEGAL Committee, we advocate for gender equality and the protection of women’s rights worldwide. Our mission is to address issues such as gender-based violence, discrimination, and barriers to education, health, and leadership. Through collaboration and diplomacy, we work to create inclusive, lasting solutions that empower women and ensure equal opportunities for all.
                   </p>
                 </div>
               </div>

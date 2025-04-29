@@ -10,7 +10,7 @@ const TeamMember = ({ member }) => {
       <div
       id={member.id}
       className="relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
-      style={{ aspectRatio: '3/4' }}
+      style={{ aspectRatio: '1/1' }}
     >
         <Link
           href={"/team#" + member.id}

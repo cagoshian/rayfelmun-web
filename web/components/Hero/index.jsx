@@ -27,38 +27,40 @@ const Hero = () => {
               >
                 <br />
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-center text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Esteemed Delegates,
+                  Dear Esteemed Delegates, Chairs, and Participants,
                 </h1>
                 <br />
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  We are grateful to have you here, at RAYFELMUN'25 which will be held on May 10th and 11th. <br />
+                  It is with great honor and excitement that I welcome you to RAYFELMUN 25,
+                  the very first edition of our Model United Nations conference, hosted by
+                  Ramazan Yaman Fen Lisesi. <br />
                   <br />
-                  RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL,
-                  for Lüleburgaz. We are becoming a guide for other schools in our city and
-                  we are honored by it.
-                  <br />
-                  <br />
-                  For these two days our precious delegates will address the issues in committees
-                  they have chosen. Their brilliant minds will lead the way to the future. RAYFELMUN
-                  is not just a conference, it is a future-changing event. Young minds will change the
-                  world in this prestigious conference.
-                  <br />
-                  <br />
-                  Our diligent and caring team is ready to welcome you over the next two days. Our
-                  team has been working non-stop. They have done amazing work for this conference
-                  and they are going to prove it. I, as the Secretary General of this conference,
-                  truly believe in my incredible team.
+                  Organizing the first-ever MUN conference at our school has been an incredible
+                  journey, and we are thrilled to share this experience with you. Our team has
+                  worked tirelessly to create an environment where diplomacy, critical thinking,
+                  and collaboration thrive. At RAYFELMUN 25, we aim to provide a platform for
+                  young minds to engage with global issues, exchange ideas, and develop solutions
+                  through debate and negotiation.
                   <br />
                   <br />
-                  We are eager to see you in our classrooms while debating, expressing your ideas
-                  and standing up for youth, future and humanity. We wish you a wonderful conference experience.
+                  We believe that every delegate, chair, and participant will leave this conference
+                  not only with valuable memories but also with enhanced skills, new friendships,
+                  and a deeper understanding of the world around us.
                   <br />
                   <br />
-                  Kind regards,
+                  I am confident that your passion, dedication, and contributions will make RAYFELMUN'25
+                  a truly memorable event. On behalf of the entire RAYFELMUN 25 team, I warmly welcome
+                  you and wish you the best of luck in your committees.
+                  <br />
+                  <br />
+                  Looking forward to seeing the incredible impact you will make!
+                  <br />
+                  <br />
+                  Sincerely,
                 </p>
                 <p className="mb-12 text-base font-normal !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Ekin Sezer <br />
-                  Secretary General of RAYFELMUN'25
+                  Ulaş Gega <br />
+                  Director General of RAYFELMUN'25
                 </p>
                 {/* <div
                   id="apply"

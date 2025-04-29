@@ -18,6 +18,15 @@ const Footer = () => {
     height={30}
     />
     </Link>
+      <Link href="/" className="mb-8 inline-block">
+    <Image
+    src="/UN_logo.png"
+    alt="logo"
+    className="hidden w-full dark:block"
+    width={140}
+    height={30}
+    />
+    </Link>
     <p className="mb-9 text-base font-medium leading-relaxed text-body-color"></p>
     <div className="flex items-center">
     <a
@@ -94,15 +103,6 @@ const Footer = () => {
 
     <div className="bg-primary/10 py-3">
     <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
-    <div className="flex items-center justify-center md:justify-start">
-    <Image
-    src="/UN_logo.png"
-    alt="UN Logo"
-    width={100}
-    height={100}
-    className="object-contain"
-    />
-    </div>
     <p className="text-center text-base text-body-color dark:text-white">
     We are{" "}
     <a

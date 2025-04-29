@@ -7,14 +7,27 @@ const Card = () => {
           data-wow-delay=".2s"
         >
           <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-          To be announced...
+10th May Saturday
+09.00 – 09.30: Registration
+09.30 – 10.30: Opening Ceremony
+10.45 – 12.30: Committee Session
+12.30 – 13.30: Lunch 
+13.30 – 15.00: Committee Session
+15.00 – 15.30: Coffee Break
+15.30 – 17.00: Committee Session
           </h3>
-          {/* <p className="mb-11 text-base font-medium leading-relaxed text-body-color">
-            Bahçeli/Ankara
-          </p>
-          <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </p> */}
+
+          <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
+11th May Sunday
+09.00 – 10.30: Committee Session
+10.30 – 11.00: Coffee Break
+11.00 – 12.30: Committee Session
+12.30 – 13.30: Lunch 
+13.30 – 15.00: Committee Session
+15.00 – 15.30: Coffee Break
+15.30 – 17.00: Committee Session
+17.00 – 18.00: Closing Ceremony
+          </h3>
         </div>
       </div>
     </section>

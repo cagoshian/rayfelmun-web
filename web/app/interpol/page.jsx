@@ -26,7 +26,7 @@ const UNESCO = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    INTERPOL committee
+                    As the INTERPOL committee, we recognize drug trafficking as a major global threat that fuels crime and instability. Our mission is to adress the major issues, combat it through enhanced international cooperation, intelligence sharing, and support for law enforcement and border control. By working together, we can effectively dismantle trafficking networks and reduce the harm caused by illicit drugs worldwide.
                   </p>
                 </div>
               </div>

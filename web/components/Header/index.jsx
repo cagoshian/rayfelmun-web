@@ -45,20 +45,24 @@ const Header = () => {
     >
       <div className="container">
         <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-30 max-w-full px-6 xl:mr-12">
+          <div className="w-30 max-w-full px-6 xl:mr-12 justify-center content-center">
             <Link
               href="/"
               className={`header-logo block w-full ${
                 sticky ? "py-5 lg:py-2" : "py-8"
               } `}
             >
-              <Image
-                src="/images/logo.png"
-                alt="logo"
-                width={100}
-                height={100}
-                className="w-full block"
-              />
+              
+              <div className="flex flex-col items-center">
+                <Image
+                    src="/images/logo.png"
+                    alt="logo"
+                    width={100}
+                    height={100}
+                    className="w-full block"
+                />
+                <h1 className="mt-2 text-center">Rayfelmun'25</h1>
+              </div>
             </Link>
           </div>
 
@@ -69,7 +73,7 @@ const Header = () => {
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-2xl px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] transition-all duration-300 bg-white ${

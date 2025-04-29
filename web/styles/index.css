@@ -33,10 +33,6 @@
   html {
     forced-color-adjust: none;
   }
-
-  :root {
-    color-scheme: only dark;
-  }
 }
 
 /* @font-face {
@@ -67,5 +63,9 @@
 
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
+  }
+
+  :root {
+    color-scheme: only dark;
   }
 }

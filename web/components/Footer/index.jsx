@@ -13,7 +13,7 @@ const Footer = () => {
     <Image
     src="/logo.png"
     alt="logo"
-    className="hidden w-full dark:block"
+    className="w-full block"
     width={140}
     height={30}
     />
@@ -22,7 +22,7 @@ const Footer = () => {
     <Image
     src="/UN_logo.png"
     alt="logo"
-    className="hidden w-full dark:block"
+    className="w-full block"
     width={140}
     height={30}
     />
@@ -70,7 +70,7 @@ const Footer = () => {
 
     <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
     <div className="mb-12 lg:mb-16">
-    <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Useful Links</h2>
+    <h2 className="mb-10 text-xl font-bold text-white">Useful Links</h2>
     <ul>
     <li>
     <a href="/" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">Home</a>
@@ -87,7 +87,7 @@ const Footer = () => {
 
     <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
     <div className="mb-12 lg:mb-16">
-    <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Support & Help</h2>
+    <h2 className="mb-10 text-xl font-bold text-white">Support & Help</h2>
     <ul>
     <li>
     <a href="/faq" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">FAQ</a>
@@ -103,7 +103,7 @@ const Footer = () => {
 
     <div className="bg-primary/10 py-3">
     <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
-    <p className="text-center text-base text-body-color dark:text-white">
+    <p className="text-center text-base text-white">
     We are{" "}
     <a
     href="https://github.com/cagoshian/rayfelmun-web"

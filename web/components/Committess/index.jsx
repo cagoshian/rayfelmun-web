@@ -9,7 +9,7 @@ const Committees = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   <Link href="/unesco">UNESCO</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -20,7 +20,7 @@ const Committees = () => {
                   <Image
                     src="/images/unesco.jpg"
                     alt="unesco"
-                    className="hidden w-full dark:block"
+                    className="w-full block"
                     width={250}
                     height={140}
                   />
@@ -37,7 +37,7 @@ const Committees = () => {
             <br />
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   <Link href="/legal">LEGAL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -48,7 +48,7 @@ const Committees = () => {
                   <Image
                     src="/images/cabinet.jpg"
                     alt="legal"
-                    className="hidden w-full dark:block"
+                    className="w-full block"
                     width={250}
                     height={140}
                   />
@@ -63,7 +63,7 @@ const Committees = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   <Link href="/interpol">INTERPOL</Link>
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -74,7 +74,7 @@ const Committees = () => {
                   <Image
                     src="/images/chernobyl.jpg"
                     alt="interpol"
-                    className="hidden w-full dark:block"
+                    className="w-full block"
                     width={250}
                     height={140}
                   />

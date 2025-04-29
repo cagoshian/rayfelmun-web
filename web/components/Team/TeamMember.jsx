@@ -9,7 +9,7 @@ const TeamMember = ({ member }) => {
       <br />
       <div
       id={member.id}
-      className="relative overflow-hidden rounded-md bg-white shadow-one dark:bg-dark"
+      className="relative overflow-hidden rounded-md shadow-one bg-dark"
       style={{ aspectRatio: '1/1' }}
     >
         <Link

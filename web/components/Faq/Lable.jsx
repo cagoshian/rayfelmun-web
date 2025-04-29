@@ -6,7 +6,7 @@ const Lable = ({ title, description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+    <div className="border-b border-opacity-10 pb-4 border-white border-opacity-10">
     <button
     onClick={() => setIsOpen(!isOpen)}
     className="flex w-full justify-between items-center text-left"

@@ -5,6 +5,9 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Rayfelmun'25" />
       <link rel="icon" href="/favicon.ico" />
+      <meta name="color-scheme" content="light dark">
+      <meta name="supported-color-schemes" content="light dark">
+      <meta name="darkreader-lock">
     </>
   );
 }

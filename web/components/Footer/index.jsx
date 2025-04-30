@@ -73,13 +73,13 @@ const Footer = () => {
     <h2 className="mb-10 text-xl font-bold text-white">Useful Links</h2>
     <ul>
     <li>
-    <a href="/" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">Home</a>
+    <a href="/" className="mb-4 inline-block text-base font-medium text-body-color hover:text-white">Home</a>
     </li>
     <li>
-    <a href="/about" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">About</a>
+    <a href="/about" className="mb-4 inline-block text-base font-medium text-body-color hover:text-white">About</a>
     </li>
     <li>
-    <a href="/committees" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">Committees</a>
+    <a href="/schedule" className="mb-4 inline-block text-base font-medium text-body-color hover:text-white">Schedule</a>
     </li>
     </ul>
     </div>
@@ -90,10 +90,10 @@ const Footer = () => {
     <h2 className="mb-10 text-xl font-bold text-white">Support & Help</h2>
     <ul>
     <li>
-    <a href="/faq" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">FAQ</a>
+    <a href="/faq" className="mb-4 inline-block text-base font-medium text-body-color hover:text-white">FAQ</a>
     </li>
     <li>
-    <a href="/contact" className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary">Contact</a>
+    <a href="/contact" className="mb-4 inline-block text-base font-medium text-body-color hover:text-white">Contact</a>
     </li>
     </ul>
     </div>
@@ -108,7 +108,7 @@ const Footer = () => {
     <a
     href="https://github.com/cagoshian/rayfelmun-web"
     rel="nofollow noopener"
-    className="hover:text-primary"
+    className="text-body-color hover:text-white"
     >
     open source!
     </a>

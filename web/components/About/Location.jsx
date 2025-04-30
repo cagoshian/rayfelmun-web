@@ -4,7 +4,7 @@ const Location = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="border-b pb-16 border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="py-4 border-white/[.15] md:py-6 lg:py-8">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div
@@ -21,14 +21,13 @@ const Location = () => {
                     Ramazan Yaman Fen Lisesi
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Sevgi Mahallesi Selami Şaşmaz Caddesi No17 Lüleburgaz/Kırklareli
+                    Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17 Lüleburgaz/Kırklareli
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </section>
   );

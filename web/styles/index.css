@@ -68,4 +68,9 @@
   :root {
     color-scheme: only dark;
   }
+
+  .leaflet-map {
+    z-index: 0;
+    position: relative;
+  }
 }

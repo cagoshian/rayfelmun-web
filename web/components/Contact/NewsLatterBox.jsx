@@ -8,7 +8,7 @@ const NewsLatterBox = () => {
         Contact
       </h3>
       <p className="mb-11 border-b pb-3 text-base font-medium leading-relaxed text-body-color border-white border-opacity-25">
-        You can contact us at the following addresses
+        You can contact us at the following addresses:
       </p>
       <p className="mb-11 pb-3 text-base font-medium leading-relaxed text-body-color border-white border-opacity-25">
         Secretary-General: +90 535 567 1139

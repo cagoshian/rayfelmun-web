@@ -20,7 +20,8 @@ const LeafletMap = () => {
     center={position}
     zoom={17}
     scrollWheelZoom={false}
-    style={{ width: "100%", height: "500px", borderRadius: "12px" }}
+    style={{ width: "100%", height: "500px", borderRadius: "16px" }}
+    className="leaflet-map"
     >
     <TileLayer
     attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'

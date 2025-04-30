@@ -61,7 +61,7 @@ const Header = () => {
                     height={100}
                     className="w-full block"
                 />
-                <h1 className="mt-2 text-center">Rayfelmun'25</h1>
+                <h1 className="mt-2 text-center hidden lg:block">Rayfelmun'25</h1>
               </div>
             </Link>
           </div>

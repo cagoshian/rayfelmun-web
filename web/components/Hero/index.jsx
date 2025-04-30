@@ -61,7 +61,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[60px] pb-16 md:pt-[90px] md:pb-[120px] xl:pt-[120px] xl:pb-[160px] 2xl:pt-[150px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
         >
         <div className="flex justify-center mb-8 mx-5">
           <Image

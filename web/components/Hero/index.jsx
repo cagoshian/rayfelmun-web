@@ -75,7 +75,7 @@ const Hero = () => {
         </div>
 
         <div className="overflow-x-auto">
-          <div className="flex justify-center gap-6 w-full max-w-screen-3xl mx-auto">
+          <div className="flex flex-col lg:flew-row items-center justify-center gap-6 w-full max-w-screen-3xl mx-auto">
           {letters.map((letter, index) => (
             <div
               key={index}

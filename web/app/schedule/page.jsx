@@ -1,9 +1,9 @@
-import Card from "@/components/Card";
+import Schedule from "@/components/Schedule";
 
 const SchedulePage = () => {
   return (
     <div className="mt-12">
-      <Card />
+      <Schedule />
     </div>
   );
 };

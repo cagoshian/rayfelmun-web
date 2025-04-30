@@ -64,7 +64,7 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
         >
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-8 ml-5 mr-5">
           <Image
             src="/images/UN.png"
             alt="United Nations"
@@ -74,12 +74,12 @@ const Hero = () => {
           />
         </div>
 
-        <div className="overflow-x-auto">
-          <div className="flex flex-col lg:flew-row items-center justify-center gap-6 w-full max-w-screen-3xl mx-auto">
+        <div className="overflow-x-auto h-full">
+          <div className="flex lg:flex-row flex-col items-center justify-center gap-6 w-full max-w-screen-3xl px-5">
           {letters.map((letter, index) => (
             <div
               key={index}
-              className="w-full lg:w-[30%] max-w-[600px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg"
+              className="w-full lg:w-[30%] max-w-[500px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg flex flex-col"
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">{letter.title}</h2>
               <p className="text-base md:text-lg leading-relaxed mb-6 whitespace-pre-line">

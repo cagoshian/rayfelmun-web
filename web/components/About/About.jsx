@@ -13,14 +13,14 @@ const About = () => {
               center
               mb="44px"
             ><p className="text-base text-center items-center !leading-relaxed text-body-color md:text-lg">
-                {/* <br />
+              {/* <br />
                 Sincerely,
                 <br /> */}
-                {/* <br />
+              {/* <br />
                 Ekin Sezer */}
-                {/* <br />
+              {/* <br />
                 Under Secretary General of RAYFELMUN'25 */}
-              </p></SectionTitle>
+            </p></SectionTitle>
 
           </div>
         </div>

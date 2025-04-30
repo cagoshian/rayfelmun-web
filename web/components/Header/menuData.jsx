@@ -44,7 +44,7 @@ const menuData = [
   },
   {
     id: 5,
-    title: "Card",
+    title: "Schedule",
     path: "/schedule",
     newTab: false,
   },

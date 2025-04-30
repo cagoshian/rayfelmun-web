@@ -79,7 +79,7 @@ const Hero = () => {
           {letters.map((letter, index) => (
             <div
               key={index}
-              className="w-full max-w-[600px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg"
+              className="w-full lg:w-[30%] max-w-[600px] bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg"
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">{letter.title}</h2>
               <p className="text-base md:text-lg leading-relaxed mb-6 whitespace-pre-line">

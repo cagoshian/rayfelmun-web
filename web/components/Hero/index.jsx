@@ -102,7 +102,7 @@ const Hero = () => {
         {timeLeft ? (
           <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
-              <h3 className="text-2xl font-semibold mb-4">Countdown to RAYFELMUN'25</h3>
+              <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
               <div className="flex gap-8 text-xl sm:text-2xl font-bold justify-center">
                 <div>
                   <span>{timeLeft.days}</span>

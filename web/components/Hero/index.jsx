@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Image from 'next/image';
 
 
@@ -57,6 +58,20 @@ const letters = [
 
 
 const Hero = () => {
+  const calculateTimeLeft = () => {
+    const targetDate = new Date("2025-05-10T09:00:00").getTime();
+    const now = new Date().getTime();
+    const difference = targetDate - now;
+
+    if (difference <= 0) return null;
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / (1000 * 60)) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  };
   return (
     <>
       <section
@@ -72,6 +87,36 @@ const Hero = () => {
             className="rounded-2xl"
           />
         </div>
+
+        {timeLeft ? (
+          <div className="flex justify-center mb-10">
+            <div className="bg-white/10 text-white backdrop-blur-lg px-8 py-6 rounded-xl shadow-lg text-center">
+              <h3 className="text-2xl font-semibold mb-4">Countdown to RAYFELMUN'25</h3>
+              <div className="flex gap-6 text-xl sm:text-2xl font-bold justify-center">
+                <div>
+                  <span>{timeLeft.days}</span>
+                  <p className="text-sm font-medium">Days</p>
+                </div>
+                <div>
+                  <span>{timeLeft.hours}</span>
+                  <p className="text-sm font-medium">Hours</p>
+                </div>
+                <div>
+                  <span>{timeLeft.minutes}</span>
+                  <p className="text-sm font-medium">Minutes</p>
+                </div>
+                <div>
+                  <span>{timeLeft.seconds}</span>
+                  <p className="text-sm font-medium">Seconds</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="text-center text-white mb-10 text-2xl font-semibold">
+          RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!
+          </div>
+        )}
 
         <div className="overflow-x-auto h-full">
           <div className="flex lg:flex-row flex-col items-center justify-center gap-6 w-full max-w-screen-3xl px-5">

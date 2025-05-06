@@ -72,6 +72,17 @@ const Hero = () => {
       seconds: Math.floor((difference / 1000) % 60),
     };
   };
+  
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+  
   return (
     <>
       <section
@@ -90,9 +101,9 @@ const Hero = () => {
 
         {timeLeft ? (
           <div className="flex justify-center mb-10">
-            <div className="bg-white/10 text-white backdrop-blur-lg px-8 py-6 rounded-xl shadow-lg text-center">
+            <div className="bg-dark text-white backdrop-blur-lg px-20 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-2xl font-semibold mb-4">Countdown to RAYFELMUN'25</h3>
-              <div className="flex gap-6 text-xl sm:text-2xl font-bold justify-center">
+              <div className="flex gap-8 text-xl sm:text-2xl font-bold justify-center">
                 <div>
                   <span>{timeLeft.days}</span>
                   <p className="text-sm font-medium">Days</p>
@@ -113,8 +124,11 @@ const Hero = () => {
             </div>
           </div>
         ) : (
-          <div className="text-center text-white mb-10 text-2xl font-semibold">
-          RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!
+            <div className="flex justify-center mb-10">
+            <div className="bg-dark text-white backdrop-blur-lg px-20 py-6 rounded-2xl shadow-lg text-center">
+              <h3 className="text-2xl font-semibold mb-4">Countdown to RAYFELMUN'25</h3>
+              <p className="text-lg font-medium">RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!</p>
+            </div>
           </div>
         )}
 

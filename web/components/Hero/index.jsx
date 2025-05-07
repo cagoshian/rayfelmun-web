@@ -99,7 +99,7 @@ const Hero = () => {
           />
         </div>
 
-        {timeLeft ? (
+        {null ? (
           <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
@@ -127,7 +127,7 @@ const Hero = () => {
             <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
-              <p className="text-lg font-medium">RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!</p>
+              <p className="text-lg font-medium">Rayfelmun'25 has been cancelled for an indefinite period of time. Condolences to all of us.</p>
             </div>
           </div>
         )}

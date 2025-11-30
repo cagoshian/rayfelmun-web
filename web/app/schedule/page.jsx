@@ -1,11 +1,9 @@
 import Schedule from "@/components/Schedule";
 
 const SchedulePage = () => {
-  return (
-    <div className="mt-12">
-      <Schedule />
-    </div>
-  );
+	return (
+		<Schedule/>
+	);
 };
 
 export default SchedulePage;

@@ -1,9 +1,9 @@
 import About from "@/components/About";
 
 const AboutPage = () => {
-  return (
-    <About />
-  );
+	return (
+		<About/>
+	);
 };
 
 export default AboutPage;

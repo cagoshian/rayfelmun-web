@@ -1,11 +1,9 @@
 import Team from "@/components/Team";
 
 const TeamPage = () => {
-  return (
-    <>
-      <Team />
-    </>
-  );
+	return (
+		<Team/>
+	);
 };
 
 export default TeamPage;

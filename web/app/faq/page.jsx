@@ -1,9 +1,9 @@
 import Faq from "@/components/Faq";
 
 const FaqPage = () => {
-  return (
-    <Faq />
-  );
+	return (
+		<Faq/>
+	);
 };
 
 export default FaqPage;

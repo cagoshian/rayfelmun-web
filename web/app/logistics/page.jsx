@@ -3,11 +3,9 @@
 import Location from "@/components/Map";
 
 const LogisticsPage = () => {
-  return (
-    <div className="mt-16">
-      <Location />
-    </div>
-  );
+	return (
+		<Location/>
+	);
 };
 
 export default LogisticsPage;

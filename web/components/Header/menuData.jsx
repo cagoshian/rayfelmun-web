@@ -1,3 +1,15 @@
+import { committeeData } from "@/data/committees";
+
+const committeeSubmenu = Object.keys(committeeData).map((key, index) => {
+  const committee = committeeData[key];
+  return {
+    id: `committee-${index}`,
+    title: committee.title,
+    path: `/committees/${key}`,
+    newTab: false,
+  };
+});
+
 const menuData = [
   {
     id: 1,
@@ -15,26 +27,7 @@ const menuData = [
     id: 3,
     title: "Committees",
     newTab: false,
-    submenu: [
-      {
-        id: 31,
-        title: "UNESCO",
-        path: "/unesco",
-        newTab: false,
-      },
-      {
-        id: 32,
-        title: "INTERPOL",
-        path: "/interpol",
-        newTab: false,
-      },
-      {
-        id: 33,
-        title: "LEGAL",
-        path: "/legal",
-        newTab: false,
-      },
-    ],
+    submenu: committeeSubmenu,
   },
   {
     id: 4,

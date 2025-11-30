@@ -1,9 +1,6 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
-import { Providers } from "./providers";
 import "../styles/index.css";
 import localFont from "next/font/local";
+import RootLayoutClient from "@/components/RootLayoutClient";
 
 const inter = localFont({
   src: "../public/fonts/InterVariable.woff2",
@@ -23,12 +20,9 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="en" className={inter.className}>
       <body className="bg-black">
-        <Providers>
-          <Header />
+        <RootLayoutClient>
           {children}
-          <Footer />
-          <ScrollToTop />
-        </Providers>
+        </RootLayoutClient>
       </body>
     </html>
   );

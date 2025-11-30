@@ -14,9 +14,8 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="pb-[120px] pt-[150px]">
+    <section>
       <div className="container">
-
         <div className="-mx-4 flex flex-wrap justify-center gap-y-10">
           {teamMembers.map((member) => (
             <div key={member.id} className="w-full px-4 sm:w-1/2 lg:w-1/3">

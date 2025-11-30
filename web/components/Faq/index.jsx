@@ -3,9 +3,8 @@ import Lable from "./Lable";
 
 const Faq = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
-      <div className="container mt-20">
-        <div className="md:pb-20 lg:pb-28">
+    <section>
+      <div className="container">
           <div className="-mx-4 flex-wrap items-center">
             <Lable
               title="Which MUN procedure will the conference follow?"
@@ -32,7 +31,6 @@ const Faq = () => {
               description="RAYFELMUN'25 will follow the Western Business Attire. All participants must follow the dress code policy of the conference which encompasses formal clothing only. The participants with sneakers or casual outfits will not be allowed to attend the conference."
             />
           </div>
-        </div>
       </div>
     </section>
   );

@@ -30,7 +30,7 @@ const days = [
 
 const Schedule = () => {
   return (
-    <section id="schedule" className="pt-16 md:pt-20 lg:pt-28 pb-16 border-white/[.15] md:pb-20 lg:pb-28">
+    <section id="schedule">
             <SectionTitle title="Schedule" center/>
 
             <div className="overflow-x-auto h-full">

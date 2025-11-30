@@ -9,9 +9,11 @@ export default function RootLayoutClient({children}) {
 	return (
 		<Providers>
 			<Header/>
-			<div className="mt-12 mb-12">
-				{children}
-			</div>
+			<section className="pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]">
+				<div className="container">
+					{children}
+				</div>
+			</section>
 			<Footer/>
 			<ScrollToTop/>
 		</Providers>

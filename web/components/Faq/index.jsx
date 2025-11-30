@@ -12,10 +12,6 @@ const Faq = () => {
               description="Rayfelmun’25 will follow the Harvard procedure."
             />
             <Lable
-              title="When is the last date for payments?"
-              description="It will be announced soon."
-            />
-            <Lable
               title="Will there be any social event?"
               description="Yes, you will be sent an e-mail informing the venue, the time, and the theme of the event as soon as your application is approved."
             />
@@ -25,7 +21,7 @@ const Faq = () => {
             />
             <Lable
               title="How long will the conference last?"
-              description="The conference will last for 2 days, between 10-11 May 2025."
+              description="The conference will last for 2 days, between 13-14 December 2025."
             />
             <Lable
               title="Is accommodation included in the fee?"

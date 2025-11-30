@@ -7,7 +7,7 @@ const letters = [
     {
   title: "Esteemed Delegates,",
   content: `
-  We are grateful to have you here, at RAYFELMUN'25 which will be held on May 10th and 11th.
+  We are grateful to have you here, at RAYFELMUN'25 which will be held on December 13rd and 14th.
 
   RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL, for Lüleburgaz. We are becoming a guide for other schools in our city and we are honored by it.
 
@@ -59,7 +59,7 @@ const letters = [
 
 const Hero = () => {
   const calculateTimeLeft = () => {
-    const targetDate = new Date("2025-05-10T09:00:00").getTime();
+    const targetDate = new Date("2025-12-13T09:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
@@ -99,7 +99,7 @@ const Hero = () => {
           />
         </div>
 
-        {null ? (
+        {timeLeft ? (
           <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
@@ -127,7 +127,7 @@ const Hero = () => {
             <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
-              <p className="text-lg font-medium">Rayfelmun'25 has been cancelled for an indefinite period of time. Condolences to all of us.</p>
+              <p className="text-lg font-medium">RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!</p>
             </div>
           </div>
         )}

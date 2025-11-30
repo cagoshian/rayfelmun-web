@@ -2,7 +2,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 
 const days = [
   {
-    day: "First Day - 10th May",
+    day: "First Day - 13rd December",
     content: `
     09.00 - 09.30: Registration
     09.30 - 10.30: Opening Ceremony
@@ -14,7 +14,7 @@ const days = [
     `,
   },
   {
-    day: "Second Day - 11th May",
+    day: "Second Day - 14th December",
     content: `
     09.00 - 10.30: Committee Session
     10.30 - 11.00: Coffee Break

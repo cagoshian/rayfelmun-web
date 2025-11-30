@@ -1,6 +1,6 @@
 "use client"
 
-import Location from "@/components/About/Location";
+import Location from "@/components/Map";
 
 const LogisticsPage = () => {
   return (

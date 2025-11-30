@@ -1,39 +1,44 @@
 "use client";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
-import L from "leaflet";
+import dynamic from "next/dynamic";
 
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
-  iconUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
-  shadowUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+const LeafletMap = dynamic(() => import("./LeafletMap"), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-[500px] bg-gray-200 animate-pulse rounded-[16px]"></div>
+  ),
 });
 
-const LeafletMap = () => {
-  const position = [41.395191, 27.345400];
+const Location = () => {
   return (
-    <MapContainer
-      center={position}
-      zoom={17}
-      scrollWheelZoom={false}
-      style={{ width: "100%", height: "500px", borderRadius: "16px" }}
-      className="leaflet-map"
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={position}>
-        <Popup>
-          Ramazan Yaman Fen Lisesi <br /> Kırklareli, Türkiye
-        </Popup>
-      </Marker>
-    </MapContainer>
+    <section className="py-16 md:py-20 lg:py-28">
+      <div className="container">
+        <div className="py-4 border-white/[.15] md:py-6 lg:py-8">
+          <div className="-mx-4 flex flex-wrap items-center">
+            <div className="w-full px-4 lg:w-1/2">
+              <div
+                className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+                data-wow-delay=".15s"
+              >
+                <LeafletMap />
+              </div>
+            </div>
+            <div className="w-full px-4 lg:w-1/2">
+              <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
+                <div className="mb-9">
+                  <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                    Ramazan Yaman Fen Lisesi
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                    Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17 Lüleburgaz/Kırklareli
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default LeafletMap;
+export default Location;

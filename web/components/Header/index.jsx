@@ -67,7 +67,7 @@ const Header = () => {
           </div>
 
           <div className="flex w-full items-center justify-between px-4">
-            <div className="flex items-center gap-4"> {/* Menü ve UN logosu için flex */}
+            <div className="flex items-center gap-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}

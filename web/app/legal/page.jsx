@@ -18,7 +18,7 @@ const UNHCR = () => {
                   <div className="mb-10 w-full overflow-hidden rounded-2xl">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/interpol.jpeg"
+                        src="/images/legal.jpeg"
                         alt="image"
                         fill
                         className="object-cover object-center"

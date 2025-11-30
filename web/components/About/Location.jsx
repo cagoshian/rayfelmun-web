@@ -1,4 +1,8 @@
-import LeafletMap from "@/components/Map";
+import dynamic from "next/dynamic";
+
+const LeafletMap = dynamic(() => import("@/components/Map"), {
+  ssr: false,
+});
 
 const Location = () => {
   return (

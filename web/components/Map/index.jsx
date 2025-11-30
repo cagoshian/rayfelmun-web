@@ -1,5 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
+import SectionTitle from "@/components/Common/SectionTitle";
+import React from "react";
 
 const LeafletMap = dynamic(() => import("./LeafletMap"), {
 	ssr: false,
@@ -12,6 +14,9 @@ const Location = () => {
 	return (
 		<section>
 			<div className="container">
+				<SectionTitle
+					title="Logistics"
+					center></SectionTitle>
 				<div className="-mx-4 flex flex-wrap items-center">
 					<div className="w-full px-4 lg:w-1/2">
 						<div

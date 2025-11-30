@@ -1,7 +1,13 @@
+import SectionTitle from "@/components/Common/SectionTitle";
+import React from "react";
+
 const Contact = () => {
 	return (
 		<section id="contact" className="overflow-hidden">
 			<div className="container">
+				<SectionTitle
+					title="Contact Us"
+					center></SectionTitle>
 				<div className="-mx-4 flex flex-wrap">
 					<div className="w-full px-4 lg:w-7/12 xl:w-8/12">
 						<div

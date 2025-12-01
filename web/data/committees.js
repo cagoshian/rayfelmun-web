@@ -22,4 +22,11 @@ export const committeeData = {
 		description: "As the INTERPOL committee, we recognize drug trafficking as a major global threat that fuels crime and instability. Our mission is to adress the major issues, combat it through enhanced international cooperation, intelligence sharing, and support for law enforcement and border control. By working together, we can effectively dismantle trafficking networks and reduce the harm caused by illicit drugs worldwide.",
 		pdfLink: "/pdf/interpol-guide.pdf"
 	},
+	
+	crisis: {
+		title: "CRISIS",
+		subTitle: "Crisis Management",
+		imageSrc: "/images/crisis.jpeg",
+		description: "On a sunny tuesday morning America would taste fear, uncertinty, and mass hysteria for the first time in 60 years. The ramifications shook status-quo in more ways than seen at the first sight. It steered the fate of the world into cencorships, survelliance states and a new age of constant conflict. This tragedy was caused through meticulous yet flawed planning, inaction but most importantly ignorance 'cause for the better part of the last decade the system had been blinking red.",
+	},
 };

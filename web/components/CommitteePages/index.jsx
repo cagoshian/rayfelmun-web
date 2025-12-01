@@ -1,11 +1,12 @@
-import Image from "next/image";
 import SectionTitle from "@/components/Common/SectionTitle";
 import Button from "@/components/Common/Button";
+import CommonImage from "../Common/Image";
+import RegularText from "@/components/Common/RegularText";
 
-const CommitteeSection = ({data}) => {
+const CommitteeSection = ({ data }) => {
 	if (!data) return null;
 	
-	const {title, subTitle, imageSrc, description, pdfLink} = data;
+	const { title, subTitle, imageSrc, description, pdfLink } = data;
 	
 	return (
 		<section
@@ -18,19 +19,16 @@ const CommitteeSection = ({data}) => {
 				center
 			/>
 			
-			<div className="relative aspect-[97/60] w-full overflow-hidden rounded-2xl bg-dark sm:aspect-[97/44]">
-				<Image
-					src={imageSrc}
-					alt={title}
-					fill
-					className="object-cover object-center"
-					priority
-				/>
-			</div>
+			<CommonImage
+				src={imageSrc}
+				alt={title}
+				fill
+				priority
+				className="aspect-[97/60] w-full sm:aspect-[97/44]"
+			/>
 			
-			<p className="text-base font-medium leading-relaxed text-body-color sm:text-lg">
-				{description}
-			</p>
+			<RegularText paragraph={description}/>
+			
 			
 			{pdfLink && (
 				<Button href={pdfLink} download>

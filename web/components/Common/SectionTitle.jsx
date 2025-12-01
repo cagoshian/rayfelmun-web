@@ -4,7 +4,6 @@ const SectionTitle = ({
   center,
 }) => {
   return (
-    <>
       <div
         className={`wow fadeInUp w-full ${center ? "mx-auto text-center" : ""} max-w-screen-xl`}
         data-wow-delay=".1s"
@@ -16,7 +15,6 @@ const SectionTitle = ({
           {paragraph}
         </p>
       </div>
-    </>
   );
 };
 

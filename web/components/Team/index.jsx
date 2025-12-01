@@ -1,29 +1,25 @@
-import Image from "next/image";
-import {teamMembers} from "@/data/team";
+import { teamMembers } from "@/data/team";
+import { CardGrid } from "../Common/Card";
+import CommonImage from "../Common/Image";
 
 const Team = () => {
 	return (
 		<section
 			id="team"
-			className="w-full flex flex-wrap justify-center gap-y-10"
+			className="w-full"
 		>
+			<CardGrid cols={3}>
 				{teamMembers.map((member) => (
-					<div key={member.id} className="w-full px-4 sm:w-1/2 lg:w-1/3">
-						<div
-							className="wow fadeInUp group relative z-10 mx-auto overflow-hidden rounded-xl bg-dark shadow-lg"
-							data-wow-delay=".1s"
-						>
-							<div className="relative aspect-square w-full">
-								<Image
-									src={member.img}
-									alt={member.alt}
-									fill
-									className="object-cover object-center transition duration-300 group-hover:scale-110"
-								/>
-							</div>
-						</div>
-					</div>
+					<CommonImage
+						key={member.id}
+						src={member.img}
+						alt={member.alt}
+						fill
+						data-wow-delay=".1s"
+						className="wow fadeInUp aspect-square w-full"
+					/>
 				))}
+			</CardGrid>
 		</section>
 	);
 };

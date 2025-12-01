@@ -1,3 +1,4 @@
+//TODO: complete redesign
 import SectionTitle from "@/components/Common/SectionTitle";
 import React from "react";
 

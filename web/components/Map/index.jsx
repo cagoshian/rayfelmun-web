@@ -14,7 +14,7 @@ const Location = () => {
 	return (
 		<section
 			id="logistics"
-			className="w-full max-w-3xl flex flex-col gap-10"
+			className="w-full max-w-3xl flex flex-col gap-10 text-center items-center"
 		>
 			<SectionTitle
 				title="Logistics"

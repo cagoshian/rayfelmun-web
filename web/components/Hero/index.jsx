@@ -31,8 +31,10 @@ const Hero = () => {
   }, []);
   
   return (
-      <section id="home">
-        <div className="flex justify-center mb-8 mx-5">
+      <section
+	      id="home"
+	      className="w-full flex flex-col gap-10 text-center items-center"
+      >
           <Image
             src="/images/UN.png"
             alt="United Nations"
@@ -40,10 +42,8 @@ const Hero = () => {
             height={400}
             className="rounded-2xl bg-dark"
           />
-        </div>
 
         {timeLeft ? (
-          <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
               <div className="flex gap-8 text-xl sm:text-2xl font-bold justify-center">
@@ -65,14 +65,11 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
         ) : (
-            <div className="flex justify-center mb-10">
             <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
               <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
               <p className="text-lg font-medium">RAYFELMUN'25 HAS BEEN OFFICIALLY STARTED!</p>
             </div>
-          </div>
         )}
 
         <div className="overflow-x-auto h-full">

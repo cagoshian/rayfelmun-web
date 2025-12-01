@@ -47,7 +47,10 @@ const FaqItem = ({ question, answer }) => {
 
 const Faq = () => {
   return (
-    <section id="faq">
+    <section
+	    id="faq"
+        className="w-full flex flex-col gap-10"
+    >
         <SectionTitle
           title="Frequently Asked Questions"
           center

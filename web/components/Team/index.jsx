@@ -3,8 +3,10 @@ import {teamMembers} from "@/data/team";
 
 const Team = () => {
 	return (
-		<section>
-			<div className="-mx-4 flex flex-wrap justify-center gap-y-10">
+		<section
+			id="team"
+			className="w-full flex flex-wrap justify-center gap-y-10"
+		>
 				{teamMembers.map((member) => (
 					<div key={member.id} className="w-full px-4 sm:w-1/2 lg:w-1/3">
 						<div
@@ -22,7 +24,6 @@ const Team = () => {
 						</div>
 					</div>
 				))}
-			</div>
 		</section>
 	);
 };

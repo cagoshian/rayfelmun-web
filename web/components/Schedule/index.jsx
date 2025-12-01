@@ -1,10 +1,12 @@
 import SectionTitle from "../Common/SectionTitle";
-// Veriyi import ediyoruz
 import {scheduleData} from "@/data/schedule";
 
 const Schedule = () => {
 	return (
-		<section id="schedule">
+		<section
+			id="schedule"
+			className="w-full flex flex-col gap-10"
+		>
 			<SectionTitle
 				title="Schedule"
 				center

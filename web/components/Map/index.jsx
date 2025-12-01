@@ -12,30 +12,20 @@ const LeafletMap = dynamic(() => import("./LeafletMap"), {
 
 const Location = () => {
 	return (
-		<section>
+		<section
+			id="logistics"
+			className="w-full max-w-3xl flex flex-col gap-10"
+		>
 			<SectionTitle
 				title="Logistics"
 				center></SectionTitle>
-			<div className="-mx-4 flex flex-wrap items-center">
-				<div className="w-full px-4 lg:w-1/2">
-					<div
-						className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] text-center mb-12 lg:m-0"
-						data-wow-delay=".15s"
-					>
-						<LeafletMap/>
-					</div>
-				</div>
-				<div className="w-full px-4 lg:w-1/2">
-					<div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
-						<h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
-							Ramazan Yaman Fen Lisesi
-						</h3>
-						<p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-							Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17 Lüleburgaz/Kırklareli
-						</p>
-					</div>
-				</div>
-			</div>
+			
+				<LeafletMap/>
+			
+			<SectionTitle
+				title="Ramazan Yaman Fen Lisesi"
+				paragraph="Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17, Lüleburgaz/Kırklareli"
+				center></SectionTitle>
 		</section>
 	);
 };

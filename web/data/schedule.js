@@ -26,7 +26,7 @@ export const scheduleData = [
       { time: "12:30 - 13:30", title: "Lunch" },
       { time: "13:30 - 15:00", title: "7th Committee Session" },
       { time: "15:00 - 15:20", title: "Coffee Break" },
-      { time: "15:20 - 17:00", title: "8th Committee Session" }
+      { time: "15:20 - 17:00", title: "8th Committee Session" },
       { time: "17:15 - 18:00", title: "Closing Ceremony" },
     ],
   },

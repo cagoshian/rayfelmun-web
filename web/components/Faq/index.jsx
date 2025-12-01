@@ -47,8 +47,7 @@ const FaqItem = ({ question, answer }) => {
 
 const Faq = () => {
   return (
-    <section className="relative z-20 overflow-hidden">
-      <div className="container">
+    <section id="faq">
         <SectionTitle
           title="Frequently Asked Questions"
           center
@@ -61,7 +60,6 @@ const Faq = () => {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 };

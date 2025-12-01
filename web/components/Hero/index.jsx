@@ -31,10 +31,7 @@ const Hero = () => {
   }, []);
   
   return (
-      <section
-        id="home"
-        className="relative z-10 overflow-hidden"
-        >
+      <section id="home">
         <div className="flex justify-center mb-8 mx-5">
           <Image
             src="/images/UN.png"

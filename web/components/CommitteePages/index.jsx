@@ -7,10 +7,9 @@ const CommitteeSection = ({ data }) => {
   const { title, subTitle, imageSrc, description, pdfLink } = data;
 
   return (
-    <section>
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="w-full px-4 lg:w-8/12">
+    <section id="committee">
+	    <div className="-mx-4 flex flex-wrap justify-center">
+	    <div className="w-full px-4 lg:w-8/12">
             <div>
               <SectionTitle
                 title={title}
@@ -46,9 +45,8 @@ const CommitteeSection = ({ data }) => {
                 </a>
               </div>
             )}
-          </div>
-        </div>
-      </div>
+	    </div>
+	    </div>
     </section>
   );
 };

@@ -41,7 +41,7 @@ const Hero = () => {
             alt="United Nations"
             width={800}
             height={400}
-            className="rounded-2xl"
+            className="rounded-2xl bg-dark"
           />
         </div>
 

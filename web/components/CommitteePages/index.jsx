@@ -24,7 +24,7 @@ const CommitteeSection = ({ data }) => {
                     src={imageSrc}
                     alt={title}
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-center bg-dark"
                     priority
                   />
                 </div>

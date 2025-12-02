@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 import {scheduleData} from "@/data/schedule";
-import Card, {CardGrid} from "../Common/Card";
+import {Card, CardGrid} from "../Common/Card";
 
 const Schedule = () => {
 	return (

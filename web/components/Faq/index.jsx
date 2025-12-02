@@ -1,7 +1,7 @@
 "use client";
 import SectionTitle from "../Common/SectionTitle";
 import { faqData } from "@/data/faq";
-import Card, { CardGrid } from "../Common/Card";
+import { CardGrid, AccordionCard } from "../Common/Card";
 
 const Faq = () => {
   return (
@@ -16,13 +16,12 @@ const Faq = () => {
 	    
       <CardGrid cols={2}>
         {faqData.map((item) => (
-          <Card
+          <AccordionCard
               key={item.id}
-              collapsible
               title={item.question}
           >
              {item.answer}
-          </Card>
+          </AccordionCard>
         ))}
       </CardGrid>
     </section>

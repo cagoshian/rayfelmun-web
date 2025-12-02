@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react';
 
+const baseCardClasses = "w-full bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg transition-all duration-300";
+
 export const CardGrid = ({ children, cols = 3, className = "" }) => {
   const gridCols = {
     1: "lg:grid-cols-1",
@@ -16,69 +18,11 @@ export const CardGrid = ({ children, cols = 3, className = "" }) => {
   );
 };
 
-const Card = ({ 
-  title, 
-  children, 
-  footer, 
-  className = "",
-  collapsible = false
-}) => {
-  const [isOpen, setIsOpen] = useState(false);
-  
-  const wrapperClasses = `w-full bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg transition-all duration-300 ${collapsible ? '' : 'flex flex-col h-full hover:bg-white/7'} ${className}`;
-
-  if (collapsible) {
-    return (
-      <div className={wrapperClasses}>
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="flex w-full items-center justify-between text-left group"
-        >
-          {title && (
-            <h4 className={`font-bold text-white transition-colors duration-300 text-lg sm:text-xl text-left`}>
-              {title}
-            </h4>
-          )}
-          <div className="ml-5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/8 text-primary transition-colors duration-300 group-hover:bg-white/15">
-            <svg
-              className={`h-6 w-6 transform transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </div>
-        </button>
-
-        <div
-          className={`grid overflow-hidden transition-all duration-300 ease-in-out ${
-            isOpen
-              ? "grid-rows-[1fr] opacity-100 mt-6"
-              : "grid-rows-[0fr] opacity-0 mt-0"
-          }`}
-        >
-          <div className="min-h-0 overflow-hidden">
-             <div className="text-base md:text-lg leading-relaxed whitespace-pre-line text-gray-200 flex-grow">
-                {children}
-             </div>
-	          
-             {footer && (
-                <div className="mt-6 pt-4 border-t border-white/10">
-                  {footer}
-                </div>
-             )}
-          </div>
-        </div>
-      </div>
-    );
-  }
-  
+export const Card = ({ title, children, footer, className = "" }) => {
   return (
-    <div className={wrapperClasses}>
+    <div className={`${baseCardClasses} flex flex-col h-full hover:bg-white/7 ${className}`}>
       {title && (
-        <h2 className={`font-bold mb-4 text-white text-2xl md:text-3xl text-center`}>
+        <h2 className="font-bold mb-4 text-white text-2xl md:text-3xl text-center">
           {title}
         </h2>
       )}
@@ -96,4 +40,49 @@ const Card = ({
   );
 };
 
-export default Card;
+export const AccordionCard = ({ title, children, footer, className = "" }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className={`${baseCardClasses} ${className}`}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex w-full items-center justify-between text-left group cursor-pointer focus:outline-none"
+      >
+        <h4 className="font-bold text-white transition-colors duration-300 text-lg sm:text-xl flex-1 pr-4">
+          {title}
+        </h4>
+	      
+        <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/10 text-primary transition-all duration-300 group-hover:bg-white/16 ${isOpen ? "bg-white/20 rotate-180" : ""}`}>
+          <svg
+            className="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </button>
+	    
+      <div
+        className={`grid transition-all duration-300 ease-in-out ${
+          isOpen ? "grid-rows-[1fr] opacity-100 mt-6" : "grid-rows-[0fr] opacity-0 mt-0"
+        }`}
+      >
+        <div className="min-h-0 overflow-hidden">
+          <div className="text-base md:text-lg leading-relaxed whitespace-pre-line text-gray-200">
+            {children}
+          </div>
+          
+          {footer && (
+            <div className="mt-6 pt-4 border-t border-white/10">
+              {footer}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};

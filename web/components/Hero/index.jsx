@@ -1,7 +1,7 @@
 "use client";
 import CommonImage from "../Common/Image";
 import { letterData } from "@/data/letters";
-import Card, { CardGrid } from "../Common/Card";
+import { Card, CardGrid } from "../Common/Card";
 import Countdown from "../Common/Countdown";
 
 const Hero = () => {

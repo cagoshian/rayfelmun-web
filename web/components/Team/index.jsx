@@ -15,8 +15,7 @@ const Team = () => {
 						src={member.img}
 						alt={member.alt}
 						fill
-						data-wow-delay=".1s"
-						className="wow fadeInUp aspect-square w-full"
+						className="aspect-square w-full"
 					/>
 				))}
 			</CardGrid>

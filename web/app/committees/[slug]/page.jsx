@@ -2,8 +2,9 @@ import { notFound } from "next/navigation";
 import CommitteeSection from "@/components/CommitteePages";
 import { committeeData } from "@/data/committees";
 
-const CommitteePage = ({ params }) => {
-  const slug = params.slug;
+const CommitteePage = async ({ params }) => {
+  const { slug } = await params;
+  
   const data = committeeData[slug];
   
   if (!data) {

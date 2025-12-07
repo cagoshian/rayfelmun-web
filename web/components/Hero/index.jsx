@@ -16,7 +16,6 @@ const Hero = () => {
             width={800}
             height={400}
             priority
-            className="bg-dark"
           />
 
         <Countdown />

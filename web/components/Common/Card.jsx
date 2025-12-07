@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 
-const baseCardClasses = "w-full bg-white/5 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg transition-all duration-300";
+const baseCardClasses = "w-full bg-white/5 hover:bg-white/7 backdrop-blur-md rounded-2xl p-6 text-white shadow-lg transition-all duration-300";
 
 export const CardGrid = ({ children, cols = 3, className = "" }) => {
   const gridCols = {
@@ -20,7 +20,7 @@ export const CardGrid = ({ children, cols = 3, className = "" }) => {
 
 export const Card = ({ title, children, footer, className = "" }) => {
   return (
-    <div className={`${baseCardClasses} flex flex-col h-full hover:bg-white/7 ${className}`}>
+    <div className={`${baseCardClasses} flex flex-col h-full ${className}`}>
       {title && (
         <h2 className="font-bold mb-4 text-white text-2xl md:text-3xl text-center">
           {title}

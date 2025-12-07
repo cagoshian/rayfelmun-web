@@ -2,7 +2,7 @@ export const letterData = [
 	{
 		title: "Esteemed Delegates,",
 		content: `
-  We are grateful to have you here, at RAYFELMUN'25 which will be held on December 13rd and 14th.
+  We are grateful to have you here, at RAYFELMUN'25 which will be held on December 13th and 14th.
 
   RAYFELMUN'25 is a milestone for us. We are starting a journey for RAYFEL, for Lüleburgaz. We are becoming a guide for other schools in our city and we are honored by it.
 

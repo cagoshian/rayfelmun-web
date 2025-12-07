@@ -5,7 +5,7 @@ import footerData from "@/data/footerData";
 
 const Footer = () => {
   return (
-    <footer className="relative z-10 bg-primary bg-opacity-5 pt-6 md:pt-10 lg:pt-14">
+    <footer className="relative z-10 bg-gradient-to-b from-black to-primary pt-6 md:pt-10 lg:pt-14">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
 	        

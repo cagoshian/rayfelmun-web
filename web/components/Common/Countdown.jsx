@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { Card } from "@/components/Common/Card";
 
 const Countdown = ({ targetDate = "2025-12-13T09:00:00" }) => {
   const calculateTimeLeft = () => {
@@ -35,28 +36,34 @@ const Countdown = ({ targetDate = "2025-12-13T09:00:00" }) => {
   if (!timeLeft) return null;
 
   return (
-    <div className="bg-dark text-white backdrop-blur-lg w-full lg:w-[30%] max-w-[500px] mx-5 py-6 rounded-2xl shadow-lg text-center">
-      <h3 className="text-xl md:text-2xl font-bold mb-4">Countdown to RAYFELMUN'25</h3>
-      
-      {timeLeft.isStarted ? (
-        <div className="flex items-center justify-center h-[64px]">
-           <p className="text-lg font-bold text-primary animate-pulse">RAYFELMUN'25 HAS OFFICIALLY STARTED!</p>
-        </div>
-      ) : (
-        <div className="flex gap-8 text-xl sm:text-2xl font-bold justify-center">
-          {[
-            { label: "Days", value: timeLeft.days },
-            { label: "Hours", value: timeLeft.hours },
-            { label: "Minutes", value: timeLeft.minutes },
-            { label: "Seconds", value: timeLeft.seconds },
-          ].map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <span className="tabular-nums">{item.value}</span>
-              <p className="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">{item.label}</p>
-            </div>
-          ))}
-        </div>
-      )}
+    <div className="w-full lg:w-[40%] max-w-[600px] mx-auto px-4 z-10 relative">
+      <Card title="Countdown to RAYFELMUN'25" className="text-center">
+        {timeLeft.isStarted ? (
+          <div className="flex items-center justify-center h-[64px]">
+             <p className="text-lg font-bold text-primary animate-pulse">
+               RAYFELMUN'25 HAS OFFICIALLY STARTED!
+             </p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-4 gap-2 sm:gap-6 justify-items-center mt-2">
+            {[
+              { label: "Days", value: timeLeft.days },
+              { label: "Hours", value: timeLeft.hours },
+              { label: "Minutes", value: timeLeft.minutes },
+              { label: "Seconds", value: timeLeft.seconds },
+            ].map((item, index) => (
+              <div key={index} className="flex flex-col items-center w-full">
+                <span className="text-2xl sm:text-4xl font-bold tabular-nums leading-none">
+                  {item.value}
+                </span>
+                <p className="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-wider mt-1 sm:mt-2">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+      </Card>
     </div>
   );
 };

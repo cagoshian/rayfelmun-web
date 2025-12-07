@@ -29,7 +29,6 @@ const CommitteeSection = ({ data }) => {
 			
 			<RegularText paragraph={description}/>
 			
-			
 			{pdfLink && (
 				<Button href={pdfLink} download>
 					Study Guide

@@ -14,8 +14,7 @@ const NotFound = () => {
 	      
 	    <SectionTitle
 				title="Motion to Adjourn?"
-				paragraph="Delegate, it seems you've wandered out of the committee session. The resolution you are looking for has either been vetoed or does not exist."
-				center></SectionTitle>
+				paragraph="Delegate, it seems you've wandered out of the committee session. The resolution you are looking for has either been vetoed or does not exist."></SectionTitle>
 	      
 	    <Button href="/">
 		    Return to General Assembly

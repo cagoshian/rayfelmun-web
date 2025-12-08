@@ -10,7 +10,6 @@ const Schedule = () => {
 		>
 			<SectionTitle
 				title="Schedule"
-				center
 			/>
 			
 			<CardGrid cols={2}>

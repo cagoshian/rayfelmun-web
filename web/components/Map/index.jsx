@@ -17,15 +17,15 @@ const Location = () => {
 			className="w-full max-w-3xl flex flex-col gap-10 text-center items-center"
 		>
 			<SectionTitle
-				title="Logistics"
-				center></SectionTitle>
+				title="Logistics">
+			</SectionTitle>
 			
 				<LeafletMap/>
 			
 			<SectionTitle
 				title="Ramazan Yaman Fen Lisesi"
-				paragraph="Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17, Lüleburgaz/Kırklareli"
-				center></SectionTitle>
+				paragraph="Sevgi Mahallesi, Selami Şaşmaz Caddesi, No:17, Lüleburgaz/Kırklareli">
+			</SectionTitle>
 		</section>
 	);
 };

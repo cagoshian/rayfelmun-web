@@ -1,4 +1,4 @@
-const SectionTitle = ({
+const RegularText = ({
 	                      paragraph,
                       }) => {
 	return (
@@ -8,4 +8,4 @@ const SectionTitle = ({
 	);
 };
 
-export default SectionTitle;
+export default RegularText;

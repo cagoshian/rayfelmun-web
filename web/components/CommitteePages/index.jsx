@@ -16,7 +16,6 @@ const CommitteeSection = ({ data }) => {
 			<SectionTitle
 				title={title}
 				paragraph={subTitle}
-				center
 			/>
 			
 			<CommonImage

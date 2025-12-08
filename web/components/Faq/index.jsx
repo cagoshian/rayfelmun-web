@@ -11,7 +11,6 @@ const Faq = () => {
     >
       <SectionTitle
         title="Frequently Asked Questions"
-        center
       />
 	    
       <CardGrid cols={2}>

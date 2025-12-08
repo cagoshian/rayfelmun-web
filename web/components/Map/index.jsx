@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import SectionTitle from "@/components/Common/SectionTitle";
 import React from "react";
 
-const LeafletMap = dynamic(() => import("./LeafletMap"), {
+const LeafletMap = dynamic(() => import("../Common/LeafletMap.jsx"), {
 	ssr: false,
 	loading: () => (
 		<div className="w-full h-[500px] bg-gray-200 animate-pulse rounded-[16px]"></div>

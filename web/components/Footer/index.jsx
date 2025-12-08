@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { InstagramIcon } from "@/components/Common/Icons";
+import { InstagramIcon, TikTokIcon } from "@/components/Common/Icons";
 import footerData from "@/data/footerData";
 
 const Footer = () => {
@@ -28,9 +28,19 @@ const Footer = () => {
                   target="_blank"
                   rel="nofollow noopener"
                   aria-label="Instagram"
-                  className="mr-6 text-[#CED3F6] hover:text-primary transition-colors"
+                  className="mr-6"
                 >
                   <InstagramIcon />
+                </a>
+	              
+	              <a
+                  href="https://www.tiktok.com/@rayfelmun0/"
+                  target="_blank"
+                  rel="nofollow noopener"
+                  aria-label="TikTok"
+                  className="mr-6"
+                >
+                  <TikTokIcon />
                 </a>
               </div>
             </div>

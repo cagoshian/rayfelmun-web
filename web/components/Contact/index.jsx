@@ -13,7 +13,7 @@ const Contact = () => {
 			
 			<Card title="Social Media" className="max-w-xl">
 				Instagram: @rayfelmun<br/>
-				TikTok: @rayfelmun
+				TikTok: @rayfelmun0
 			</Card>
 			
 			<CardGrid cols={2}>

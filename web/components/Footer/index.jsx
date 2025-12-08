@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-primary/10 py-3">
+      <div className="py-3">
         <div className="container flex justify-center">
           <p className="text-center text-base text-white">
             We are{" "}

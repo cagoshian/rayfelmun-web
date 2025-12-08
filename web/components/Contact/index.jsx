@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="w-full flex flex-col gap-10 text-center items-center"
+			className="w-full max-w-4xl flex flex-col gap-10 text-center items-center"
 		>
 		<SectionTitle
 			title="Contact Us"></SectionTitle>

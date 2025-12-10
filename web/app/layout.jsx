@@ -66,7 +66,6 @@ const jsonLd = {
 export default function RootLayout({children}) {
     return (
         <html lang="en" className="dark" style={{colorScheme: "dark"}}>
-        {/* or you can use `suppressHydrationWarning` instead of `className="dark" style={{colorScheme: "dark"}}` */}
         <body className={inter.className + " bg-black"}>
         <script
             type="application/ld+json"

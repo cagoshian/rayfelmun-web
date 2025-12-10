@@ -12,9 +12,8 @@ const footerData = [
     {
         title: "Social Media",
         links: [
-            // fix here!
-            {name: (<><InstagramIcon className="w-5 inline mr-1"/> <span className="mb-1 inline-block text-base font-medium text-[#ddd] hover:text-white transition-colors ease-in duration-200">Instagram</span></>), href: `https://www.instagram.com/rayfelmun/`, noStyle: true},
-            {name: (<><TikTokIcon className="w-5 inline mr-1"/> <span className="mb-1 inline-block text-base font-medium text-[#ddd] hover:text-white transition-colors ease-in duration-200">Tiktok</span></>), href: `https://www.tiktok.com/@rayfelmun0/`, noStyle: true},
+	        {name: (<><InstagramIcon className="w-5 inline mr-1"/> <span className="mb-1 inline-block text-base font-medium text-[#ddd] hover:text-white transition-colors ease-in duration-200">Instagram</span></>), href: `https://www.instagram.com/rayfelmun/`, noStyle: true},
+            {name: (<><TikTokIcon className="w-5 inline mr-1"/> <span className="mb-1 inline-block text-base font-medium text-[#ddd] hover:text-white transition-colors ease-in duration-200">TikTok</span></>), href: `https://www.tiktok.com/@rayfelmun0/`, noStyle: true},
         ]
     },
     {

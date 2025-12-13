@@ -7,6 +7,7 @@ const footerData = [
             {name: "Home", href: "/"},
             {name: "About", href: "/about"},
             {name: "Schedule", href: "/schedule"},
+	        {name: "Gallery", href: "/gallery"},
         ],
     },
     {

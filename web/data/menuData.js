@@ -1,64 +1,70 @@
-import { committeeData } from "@/data/committees";
+import {committeeData} from "@/data/committees";
 
 const committeeSubmenu = Object.keys(committeeData).map((key, index) => {
-  const committee = committeeData[key];
-  return {
-    id: `committee-${index}`,
-    title: committee.title,
-    path: `/committees/${key}`,
-    newTab: false,
-  };
+	const committee = committeeData[key];
+	return {
+		id: `committee-${index}`,
+		title: committee.title,
+		path: `/committees/${key}`,
+		newTab: false,
+	};
 });
 
 const menuData = [
-  {
-    id: 1,
-    title: "Home",
-    path: "/",
-    newTab: false,
-  },
-  {
-    id: 2,
-    title: "About",
-    path: "/about",
-    newTab: false,
-  },
-  {
-    id: 3,
-    title: "Committees",
-    newTab: false,
-    submenu: committeeSubmenu,
-  },
-  {
-    id: 4,
-    title: "Logistics",
-    path: "/logistics",
-    newTab: false,
-  },
-  {
-    id: 5,
-    title: "Schedule",
-    path: "/schedule",
-    newTab: false,
-  },
-  {
-    id: 6,
-    title: "Contact",
-    path: "/contact",
-    newTab: false,
-  },
-  {
-    id: 7,
-    title: "FAQ",
-    path: "/faq",
-    newTab: false,
-  },
-  {
-    id: 8,
-    title: "Team",
-    path: "/team",
-    newTab: false,
-  },
+	{
+		id: 1,
+		title: "Home",
+		path: "/",
+		newTab: false,
+	},
+	{
+		id: 2,
+		title: "About",
+		path: "/about",
+		newTab: false,
+	},
+	{
+		id: 3,
+		title: "Committees",
+		newTab: false,
+		submenu: committeeSubmenu,
+	},
+	{
+		id: 4,
+		title: "Logistics",
+		path: "/logistics",
+		newTab: false,
+	},
+	{
+		id: 5,
+		title: "Schedule",
+		path: "/schedule",
+		newTab: false,
+	},
+	{
+		id: 6,
+		title: "Contact",
+		path: "/contact",
+		newTab: false,
+	},
+	{
+		id: 7,
+		title: "FAQ",
+		path: "/faq",
+		newTab: false,
+	},
+	{
+		id: 8,
+		title: "Team",
+		path: "/team",
+		newTab: false,
+	},
+	{
+		id: 9,
+		title: "Gallery",
+		path: "/gallery",
+		newTab: false,
+	},
 ];
 
 export default menuData;
